@@ -1,0 +1,319 @@
+Date: Fri, 26 Nov 2021 17:08:44 -0500 (EST)
+Message-ID: <854732839.1593.1637964524540@studio.eecs.umich.edu>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_1592_1478582735.1637964524540"
+
+------=_Part_1592_1478582735.1637964524540
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>(Ideas) Ultimate Dungeon Objective</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>(Ideas) Ultimate Dungeon Objective</h1>
+    <div class=3D"Section1">
+        <p><u><strong>Summary</strong></u></p>
+<p><span style=3D"color: rgb(0,0,0);">This is overall a document of various=
+ objective ideas for the Ultimate Dungeon Objective Design.&nbsp;</span></p=
+>
+<p><u><strong>Idea 1: Cage Fall</strong></u></p>
+<p><span style=3D"color: rgb(128,0,0);">The player activates the 3-4 levers=
+ on the 4 tower-tops. After that player jumps on top of the cage in the mid=
+dle of the 4 towers. Immediately after landing on top of it the cage falls =
+with the player heroically taking down the Typhon essence out of the Cloud =
+Factory with Hermes (could be player and cage fall forever until player sho=
+ots inside cage 3 full-charged shots at the Typhon essence in the cage or s=
+omething). <span style=3D"color: rgb(0,0,128);">My inspiration for this ide=
+a is from playing Lego Lord of the Rings (Balrog fight portion of level).</=
+span></span></p>
+<p><span style=3D"color: rgb(128,0,0);"><iframe class=3D"youtube-player" ty=
+pe=3D"text/html" style=3D"width: 400px; height: 300px" src=3D"//www.youtube=
+.com/embed/ePF0lihw0KA?wmode=3Dopaque" frameborder=3D"0" webkitallowfullscr=
+een mozallowfullscreen allowfullscreen> </iframe> &nbsp;<span style=3D"colo=
+r: rgb(0,0,255);"><span style=3D"color: rgb(0,0,0);">(Lego Lord of the Ring=
+s - Balrog Fall)</span></span></span></p>
+<p><u style=3D"letter-spacing: 0.0px;"><strong><span style=3D"color: rgb(12=
+8,0,0);"><span style=3D"color: rgb(0,0,0);">Idea 2: Cage Explosion</span></=
+span></strong></u></p>
+<p><span style=3D"color: rgb(128,0,0);"><span style=3D"color: rgb(0,0,0);">=
+<span style=3D"color: rgb(128,0,0);">The player activates the 3-4 levers on=
+ the 4 tower-tops. After that the player takes a moving platform, which mov=
+es up and down. About the middle of the cage's height there is a walkway, w=
+hich is where the platform drops off the player. The player goes on the wal=
+kway, and because the levers activated a control panel on an exterior panel=
+ of the cage, player activates it. <span style=3D"color: rgb(0,0,128);">Act=
+ivating this bomb could be anything from a simple button press to a randomi=
+zed myriad of functions that must be completed in order to activate it (see=
+ the "Keep Talking and Nobody Explodes" video below).</span> Once activated=
+, the control panel explodes the cage with the player heroically taking the=
+ Typhon essence down with Hermes. <span style=3D"color: rgb(0,0,128);">Thin=
+k of any game or movie where the objective is to activate a bomb, selflessl=
+y sacrificing oneself for all.</span></span></span></span></p>
+<p><span style=3D"color: rgb(128,0,0);"><span style=3D"color: rgb(0,0,0);">=
+<span style=3D"color: rgb(128,0,0);"><iframe class=3D"youtube-player" type=
+=3D"text/html" style=3D"width: 400px; height: 300px" src=3D"//www.youtube.c=
+om/embed/1-MM1UTtjyU?wmode=3Dopaque" frameborder=3D"0" webkitallowfullscree=
+n mozallowfullscreen allowfullscreen> </iframe> &nbsp;<span style=3D"color:=
+ rgb(0,0,0);">(Keep Talking and Nobody Explodes - Launch Trailer)</span></s=
+pan></span></span></p>
+<p><u><strong><span style=3D"color: rgb(0,0,0);">Idea 3: Dungeon Escape</sp=
+an></strong></u></p>
+<p><span style=3D"color: rgb(128,0,0);">Same as #2, except this time instea=
+d of an immediate explosion the player has <u>2-5 minutes to take the platf=
+orm connected to the walkway linked to the cage back up to a tower-top and =
+run back to the beginning of the dungeon</u> to escape Cloud-Interior--the =
+room of the Cloud Factory containing the Typhon essence (which is the entir=
+e dungeon itself). Ultimately the player goes from point B (the cage) to po=
+int A (the beginning of the dungeon). <span style=3D"color: rgb(0,0,255);">=
+<span style=3D"color: rgb(0,0,128);">It would be reminiscent of the Halo Wa=
+rthog Run from Halo: Combat Evolved by being a time crunch, having some epi=
+c music (variant of main theme probably), and making the player escape for =
+everything they have out or the very ending of Star Fox 64 (3D) for the Tru=
+e Final Boss fight.</span>&nbsp;<span style=3D"color: rgb(0,0,0);">Plus the=
+ player would feel elated from after climbing that tower to glide off of it=
+.</span></span></span></p>
+<p><span style=3D"color: rgb(128,0,0);"><span style=3D"color: rgb(0,0,255);=
+"><span style=3D"color: rgb(0,0,0);"><iframe class=3D"youtube-player" type=
+=3D"text/html" style=3D"width: 400px; height: 300px" src=3D"//www.youtube.c=
+om/embed/8W69xjsMCgQ?wmode=3Dopaque" frameborder=3D"0" webkitallowfullscree=
+n mozallowfullscreen allowfullscreen> </iframe> &nbsp;(Halo: Combat Evolved=
+ Anniversary - Warthog Run)</span></span></span></p>
+<p><span style=3D"color: rgb(128,0,0);"><span style=3D"color: rgb(0,0,255);=
+"><span style=3D"color: rgb(0,0,0);"><iframe class=3D"youtube-player" type=
+=3D"text/html" style=3D"width: 400px; height: 300px" src=3D"//www.youtube.c=
+om/embed/jvIOB3uRZok?wmode=3Dopaque" frameborder=3D"0" webkitallowfullscree=
+n mozallowfullscreen allowfullscreen> </iframe> &nbsp;(Star Fox 64 3D - Tru=
+e Final Boss Fight, Start @ 4:31 in the video to skip to relevant part)</sp=
+an></span></span></p>
+<p><em><strong><span style=3D"color: rgb(128,0,0);"><span style=3D"color: r=
+gb(0,0,0);">[Why this one is such good strategy is because <u>it's unique</=
+u>, makes <u>the level generator even more defining for our game</u>, creat=
+es <u>a unique gameplay/playthrough EVERY SINGLE TIME</u> (great marketing/=
+selling point of game), fixes <u>problem of player simply running by enemie=
+s</u> (for escaping dungeon with bunch of enemies will be harder), and hope=
+fully <u>doesn't take too much programming/level design work</u>]</span></s=
+pan></strong></em></p>
+    </div>
+</body>
+</html>
+------=_Part_1592_1478582735.1637964524540--

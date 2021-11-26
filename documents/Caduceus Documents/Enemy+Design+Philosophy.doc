@@ -1,0 +1,402 @@
+Date: Fri, 26 Nov 2021 17:05:47 -0500 (EST)
+Message-ID: <2043369307.1549.1637964347495@studio.eecs.umich.edu>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_1548_454449247.1637964347495"
+
+------=_Part_1548_454449247.1637964347495
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Enemy Design Philosophy</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Enemy Design Philosophy</h1>
+    <div class=3D"Section1">
+        <p><strong>( W. I. P. )</strong></p>
+<p>LEGEND:</p>
+<ul>
+<li>Red =3D Question</li>
+</ul>
+<h3 style=3D"" id=3D"EnemyDesignPhilosophy-MVP-Alpha">MVP-Alpha</h3>
+<hr style=3D"">
+<p><u><strong>At Least 3 Unique Enemies</strong></u></p>
+<ul>
+<li><span style=3D"color: rgb(255,0,0);">Do we want a melee only enemy, a r=
+anged only enemy, and a ranged &amp; melee enemy?</span>
+<ul>
+<li><span>Ground-charge enemy, higher-priority ground enemy (more complex s=
+trategy to beat), flying highest-priority (grapple-hook Phoenix?)</span></l=
+i>
+</ul></li>
+<li><span style=3D"color: rgb(255,0,0);">How do our enemies move?</span>
+<ul>
+<li><span>Minotaur base charge; Satyr/Dryad semi-predictable (unpredictabil=
+ity of teleporters/jumps is their main trait)</span></li>
+</ul></li>
+<li><span style=3D"color: rgb(255,0,0);">How do they attack?</span>
+<ul>
+<li><span>Minotaur charges until hits something* (jump over it/play chicken=
+ with it; don't want bait charge as only way to beat it); Satyr (normal bor=
+ing does damage)/Dryad (sleep darts, TBD for how sleep status effect builds=
+ up) projectile attacks; Phoenix shoots stream of fire or a fireball (or bo=
+th?)</span></li>
+</ul></li>
+<li><span style=3D"color: rgb(255,0,0);">What do they look like?</span>
+<ul>
+<li><span>Minotaur looks like a Minotaur (has pants on); Satyr looks like a=
+ Satyr (goat bottom); Dryad looks like a Dryad (plant person, typically fem=
+ale); Phoenix (just a bird, could be on fire; has to have something on it t=
+hat looks like level design cues for platforming abilities; looking at Phoe=
+nix tells you only way to beat it is by platforming)</span></li>
+</ul></li>
+<li><span style=3D"color: rgb(255,0,0);">How do they force the player to ut=
+ilize their skillset (their combat mechanics and platforming abilities)?</s=
+pan>
+<ul>
+<li><span>Minotaur makes player rely on movement/double jump; Satyr would p=
+resumably be jumping from platforms/locations on map, similar for Dryad (va=
+riation of jump patterns); Phoenix makes player rely on grapple, overall pl=
+atforming game mechanics, and timing</span></li>
+<li><span>Should be noted that:&nbsp;Satyr tests ability to track multiple =
+enemies to prioritize targets</span>
+<ul>
+<li><span>Enemies also move quickly (important for challenge)</span></li>
+</ul></li>
+</ul></li>
+<li><span style=3D"color: rgb(255,0,0);">What can we do to make our enemies=
+ simple but nevertheless unique?</span>
+<ul>
+<li><span>Simplistic movement patterns (and AI patterns) way they interact =
+with players is interesting</span>
+<ul>
+<li><span>Proven by what we have</span></li>
+</ul></li>
+</ul></li>
+<li><span style=3D"color: rgb(255,0,0);">What steps can we take to increase=
+ our chances of developing more than 3 enemies? Should we make enemy varian=
+ts?</span>
+<ul>
+<li><em>(If a lot of enemy behaviors are generalized in code using a State =
+design pattern, designing more enemies can become more realistic)</em></li>
+<li>Simple enemies and variants like we have
+<ul>
+<li>With current ideas, limited by Art
+<ul>
+<li>E.g., could be Super Satyr instead of Dryad</li>
+<li>Griffon could be like Minotaur</li>
+<li>If limited, maintain theme elements of enemies while keeping mechanics =
+intact
+<ul>
+<li>Satyrs can teleport, shoot spitballs (like spitballs in Mr. Incredible)=
+</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><span style=3D"color: rgb(255,0,0);">What gives our enemies character? =
+Should we focus on tying them into the narrative?</span>
+<ul>
+<li><span>Fact that they're popular, Greek, and mythological monsters, easi=
+ly fit into narrative and did we mention super popular?</span>
+<ul>
+<li><span>Like in Hades, enemies based on well-known ideas</span>
+<ul>
+<li><span>Satyrs are based off of satyrs; gorgons are based off of gorgons =
+(associate with Medusa, so renowned)</span></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><span style=3D"color: rgb(255,0,0);">Will our enemies act differently i=
+n =E2=80=9Crooms=E2=80=9D vs. =E2=80=9Cobjective rooms=E2=80=9D?</span>
+<ul>
+<li>Scoping limited by Art and AI
+<ul>
+<li>Not for optional content</li>
+</ul></li>
+<li>Platforming room where primary challenge is platforming room
+<ul>
+<li>Could have differences
+<ul>
+<li>Satyrs following you</li>
+</ul></li>
+<li>Or could have multiple satyrs</li>
+</ul></li>
+<li>Largely no</li>
+<li>Rooms where enemies have to keep up with you
+<ul>
+<li>Extended platforming challenges
+<ul>
+<li>If anyone has any questions, ask Rob</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+<p><u><strong>Boss</strong></u></p>
+<ul>
+<li><span style=3D"color: rgb(255,0,0);">Is having a boss in-scope? Is ther=
+e a way we can prepare for a potential boss, and still be okay if we can=E2=
+=80=99t manage to make one?</span>
+<ul>
+<li><span>Yes, if it's in-scope:</span>
+<ul>
+<li><span>Will require a lot of thought to be in scope</span></li>
+<li><span>Phoenix or Chimera or Hydra could be boss</span>
+<ul>
+<li>Different head different platforming mechanic&nbsp;</li>
+</ul></li>
+<li><span>Making the most of a player's toolkit</span></li>
+</ul></li>
+<li><span>Boss must be designed around the platforming mechanics, taking ad=
+vantage of everything player knows</span>
+<ul>
+<li><span>Multiple different platforming mechanics, different (variant) pho=
+enixes use different platforming mechanics</span>
+<ul>
+<li>Hook on to grapple to make it fall on ground</li>
+<li><span>Target on belly, dash into it to make it fall on ground</span></l=
+i>
+</ul></li>
+</ul></li>
+<li><span>Not in-scope:</span>
+<ul>
+<li><span>Make a platforming puzzle</span>
+<ul>
+<li><span>Objective could be to get to the other side of tough terrain and =
+lots of enemies</span>
+<ul>
+<li><span>Requires player to make us of all major platforming mechanics (ju=
+mp, grapple, dash, etc.)</span></li>
+<li><span>Creative multi-grapple?</span>
+<ul>
+<li><span>Grapple from one phoenix to another to another over a chasm with =
+several platforms with varying depths/heights</span></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_1548_454449247.1637964347495--

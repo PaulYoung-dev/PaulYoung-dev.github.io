@@ -1,0 +1,582 @@
+Date: Fri, 26 Nov 2021 17:06:06 -0500 (EST)
+Message-ID: <878755194.1551.1637964366106@studio.eecs.umich.edu>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_1550_1473362098.1637964366103"
+
+------=_Part_1550_1473362098.1637964366103
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Enemy Design Reference</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Enemy Design Reference</h1>
+    <div class=3D"Section1">
+        <p><em>VOCABULARY LEGEND:</em></p>
+<ul>
+<li><span style=3D"color: rgb(255,0,0);">Red =3D Enemy Type Name</span></li=
+>
+<li><span style=3D"color: rgb(0,128,0);">Green =3D Dungeon Name</span></li>
+<li><span style=3D"color: rgb(0,0,255);">Blue =3D Enemy Action</span></li>
+<li><span style=3D"color: rgb(255,102,0);">Orange =3D Item/Mechanic Name</s=
+pan></li>
+<li><span style=3D"color: rgb(128,0,128);">Purple =3D Section Title</span><=
+/li>
+</ul>
+<p><span style=3D"color: rgb(122,134,154);">[If you have any ideas to add, =
+add them to Section IX]</span></p>
+<h3 id=3D"EnemyDesignReference-MVP-Alpha">MVP-Alpha</h3>
+<hr>
+<p><span style=3D"color: rgb(128,0,128);">I. Amount of Enemy Types:</span><=
+/p>
+<ul>
+<li><span style=3D"color: rgb(255,102,0);">3 Types</span>
+<ul>
+<li>Basic</li>
+<li>Medium</li>
+<li>Difficult</li>
+</ul></li>
+</ul>
+<p><span style=3D"color: rgb(128,0,128);">II. Specific Enemy Types:</span><=
+/p>
+<ul>
+<li><span style=3D"color: rgb(255,0,0);">Minotaur</span>
+<ul>
+<li>1st-level enemy (easiest)</li>
+</ul></li>
+<li><span style=3D"color: rgb(255,0,0);">Satyr</span>
+<ul>
+<li>2nd-level enemy (easier)</li>
+</ul></li>
+<li><span style=3D"color: rgb(255,0,0);">Phoenix</span>
+<ul>
+<li>3rd-level enemy (tough)</li>
+</ul></li>
+</ul>
+<p><span style=3D"color: rgb(128,0,128);">III. Unique Enemy Type Mechanics:=
+</span></p>
+<ul>
+<li><span style=3D"color: rgb(255,0,0);">Minotaur</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,255);">Grounded</span> enemy with <span s=
+tyle=3D"color: rgb(0,0,255);">basic charging movement that follows the play=
+er</span></li>
+</ul></li>
+<li><span style=3D"color: rgb(255,0,0);">Satyr</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,255);">Fast-paced semi-grounded</span> en=
+emy that <span style=3D"color: rgb(0,0,255);">shoots darts, moves fast, </s=
+pan><span style=3D"color: rgb(0,0,0);">and </span><span style=3D"color: rgb=
+(0,0,255);">occasionally teleports/sidesteps quickly</span></li>
+</ul></li>
+<li><span style=3D"color: rgb(255,0,0);">Phoenix</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,255);">Flying&nbsp;</span>enemy set to a =
+<span style=3D"color: rgb(0,0,255);">nonrandom patrol flying path&nbsp;<spa=
+n style=3D"color: rgb(0,0,0);">within range of the player's <span style=3D"=
+color: rgb(255,102,0);">grapple mechanic</span></span></span></li>
+</ul></li>
+</ul>
+<p><span style=3D"color: rgb(128,0,128);">IV. Enemy Movement:</span></p>
+<ul>
+<li><span style=3D"color: rgb(255,0,0);">Minotaur</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,255);">Charges</span> at player and <span=
+ style=3D"color: rgb(0,0,255);">follows player<span style=3D"color: rgb(0,0=
+,0);"> <span style=3D"color: rgb(0,0,255);"><span style=3D"color: rgb(0,0,0=
+);">until</span> impact</span> <span style=3D"color: rgb(0,0,255);">with an=
+ object</span> or <span style=3D"color: rgb(0,0,255);">taking significant (=
+50%+) damage&nbsp;</span></span></span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">If <span style=3D"color: rgb(255,102=
+,0);">impact/damage </span><span style=3D"color: rgb(0,0,255);"><span style=
+=3D"color: rgb(255,102,0);">threshold</span> triggers</span>, then the Mino=
+taur <span style=3D"color: rgb(0,0,255);">slumps down on the ground</span>,=
+ being <span style=3D"color: rgb(0,0,255);">dazed</span> for a few (2-5, de=
+pends on difficulty) seconds</span></li>
+</ul></li>
+<li><span style=3D"color: rgb(255,102,0);">Platforming mechanic</span> make=
+s spaces not too open</li>
+<li>If Double Jump: Trick it into chasing you, jump over it, then shoot it =
+in midair (slo-mo?)
+<ul>
+<li>Slo-mo no longer cool after a while, keep in mind</li>
+<li>Good example: Red Dead Redemption (1st game); made up for bad/semi-good=
+ shooting mechanic</li>
+</ul></li>
+</ul></li>
+<li><span style=3D"color: rgb(255,0,0);">Satyr</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,255);">Jumps</span> <span style=3D"color:=
+ rgb(0,0,255);">around the map</span> and <span style=3D"color: rgb(0,0,255=
+);">shoots the player</span> with <span style=3D"color: rgb(255,102,0);">bl=
+ow-darts</span>.
+<ul>
+<li>Rewards the player for paying attention to where the <span style=3D"col=
+or: rgb(0,0,255);">Satyr jumps</span>, for closing distance quickly, and ag=
+ain for keeping moving.</li>
+</ul></li>
+<li>Variant:
+<ul>
+<li><span style=3D"color: rgb(255,0,0);">Dryad / Super Satyr</span>&nbsp;
+<ul>
+<li><span style=3D"color: rgb(0,0,255);">Teleports around the map</span> wi=
+th the same behavior (but a different animation) as <span style=3D"color: r=
+gb(0,0,255);"><span style=3D"color: rgb(255,0,0);">Satyr's</span> jump</spa=
+n>. <span style=3D"color: rgb(0,0,255);">Fires</span> a <span style=3D"colo=
+r: rgb(255,102,0);">different projectile</span> that can <span style=3D"col=
+or: rgb(0,0,255);">ensnare</span> the player.</li>
+<li>Larger threat, but also rewards same <span style=3D"color: rgb(255,102,=
+0);">skillset/deployment of mechanics</span> by the gamer as the <span styl=
+e=3D"color: rgb(255,0,0);">Satyr</span> to a greater degree.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><span style=3D"color: rgb(255,0,0);">Phoenix</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,255);">Patrol/Hostile behavior TBD</span>=
+, but should probably remain simple for the sake of scope.</li>
+<li>If player fails to accomplish <span style=3D"color: rgb(255,102,0);">me=
+chanic task</span> required to take down the <span style=3D"color: rgb(255,=
+0,0);">Phoenix</span>, then the <span style=3D"color: rgb(255,0,0);">Phoeni=
+x</span> enters <span style=3D"color: rgb(0,0,255);">Hostile mode</span> un=
+til the player's death is ensued.
+<ul>
+<li><span style=3D"color: rgb(0,0,255);">Hostile Mode</span> is when the&nb=
+sp;</li>
+</ul></li>
+<li>When killed with the <span style=3D"color: rgb(255,102,0);">player's&nb=
+sp;ranged weapon</span>, <span style=3D"color: rgb(255,0,0);">Phoenix</span=
+> quickly <span style=3D"color: rgb(0,0,255);">rises from the ashes</span>
+<ul>
+<li>Can only be killed using one of the <span style=3D"color: rgb(255,102,0=
+);">player's main platforming mechanics</span>. Rewards <span style=3D"colo=
+r: rgb(255,102,0);">mastery of the mechanic</span>.</li>
+</ul></li>
+</ul></li>
+</ul>
+<p><span style=3D"color: rgb(128,0,128);">V. Enemy Challenge Objectives (Ph=
+ilosophy/Goals)</span></p>
+<ul>
+<li>Make sure the player can do what they need to to beat the game.</li>
+<li>Enemies are foils for the player's <span style=3D"color: rgb(255,102,0)=
+;">abilities/mechanics</span>, further develops the use for the <span style=
+=3D"color: rgb(255,102,0);">player's mechanics</span>.</li>
+<li>Player must know how to use skills to beat enemies</li>
+<li>Enemy variants
+<ul>
+<li>Per Dungeon
+<ul>
+<li>If enemy type is in multiple dungeons, the <span style=3D"color: rgb(0,=
+128,0);">1st Dungeon</span> is easiest iteration, then the <span style=3D"c=
+olor: rgb(0,128,0);">2nd Dungeon</span> is less easy iteration, <span style=
+=3D"color: rgb(0,128,0);">Final Dungeon</span> is toughest iteration</li>
+</ul></li>
+<li>In General
+<ul>
+<li>Color palette change (e.g., <span style=3D"color: rgb(255,0,0);">Satyr<=
+/span> vs. <span style=3D"color: rgb(255,0,0);">Super-Satyr</span>)</li>
+</ul></li>
+</ul></li>
+</ul>
+<p><span style=3D"color: rgb(128,0,128);">VI. Enemy Strategies:</span></p>
+<ul>
+<li><span style=3D"color: rgb(255,0,0);">Minotaur</span>
+<ul>
+<li>Utilizes ground-combat skills, slightly variant/adds complexity in each=
+ subsequent dungeon</li>
+</ul></li>
+<li><span style=3D"color: rgb(255,0,0);">Satyr</span>
+<ul>
+<li>Utilizes ground-combat skills, slightly variant/adds complexity in each=
+ subsequent dungeon</li>
+</ul></li>
+<li><span style=3D"color: rgb(255,0,0);">Phoenix</span>
+<ul>
+<li>Utilizes ground-combat skills, slightly variant/adds complexity in each=
+ subsequent dungeon</li>
+</ul></li>
+</ul>
+<p><span style=3D"color: rgb(128,0,128);">VIII. Amount of Enemies and Chara=
+cteristics Per Level:</span></p>
+<ul>
+<li>Ultimately determined by level-design team, these are rough numbers to =
+show generally preferred concentration ratios</li>
+<li><span style=3D"color: rgb(0,128,0);">1st Dungeon:</span>
+<ul>
+<li><span style=3D"color: rgb(255,0,0);">Minotaurs:</span> 60% (Most of ene=
+my types)
+<ul>
+<li>Mechanics to Beat:</li>
+<li>Become more difficult as level progresses (higher stats, etc.)</li>
+</ul></li>
+<li><span style=3D"color: rgb(255,0,0);">Satyrs:</span> 40% (Some of enemy =
+types)
+<ul>
+<li>Mechanics to Beat:</li>
+<li>Become more difficult as level progresses (higher stats, etc.)</li>
+</ul></li>
+<li><span style=3D"color: rgb(255,0,0);">Phoenices:</span> 0% (Not in this =
+level)
+<ul>
+<li>N/A</li>
+</ul></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,128,0);">2nd Dungeon:</span>
+<ul>
+<li><span style=3D"color: rgb(255,0,0);">Minotaurs:</span> 40% (Some of ene=
+my types)
+<ul>
+<li>Mechanics to Beat:&nbsp;</li>
+<li>Become more difficult as level progresses (higher stats, etc.)</li>
+<li>Overall tougher than 1st Dungeon iterations</li>
+</ul></li>
+<li><span style=3D"color: rgb(255,0,0);">Satyrs:</span> 40% (Some of enemy =
+types)
+<ul>
+<li>Mechanics to Beat:</li>
+<li>Become more difficult as level progresses (higher stats, etc.)</li>
+<li>Overall tougher than 1st Dungeon iterations</li>
+</ul></li>
+<li><span style=3D"color: rgb(255,0,0);">Phoenices:</span> 20% (Few enemy t=
+ypes)
+<ul>
+<li>Mechanics to Beat:</li>
+<li>Same difficulty as level progresses (higher stats, etc.)</li>
+</ul></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,128,0);">Final Dungeon:</span>
+<ul>
+<li><span style=3D"color: rgb(255,0,0);">Minotaurs:</span> 30% (Some of ene=
+my types)
+<ul>
+<li>Mechanics to Beat:</li>
+<li>Become more difficult as level progresses (higher stats, etc.)</li>
+<li>Overall tougher than 2nd Dungeon iterations</li>
+</ul></li>
+<li><span style=3D"color: rgb(255,0,0);">Satyrs:</span> 34% (Some of enemy =
+types)
+<ul>
+<li>Mechanics to Beat:</li>
+<li>Become more difficult as level progresses (higher stats, etc.)</li>
+<li>Overall tougher than 2nd Dungeon iterations</li>
+</ul></li>
+<li><span style=3D"color: rgb(255,0,0);">Phoenices:</span> 34% (Some of ene=
+my types)
+<ul>
+<li>Mechanics to Beat:</li>
+<li>Become more difficult as level progresses (higher stats, etc.)</li>
+<li>Overall tougher than 2nd Dungeon iterations</li>
+</ul></li>
+<li>Final 2% is the potential boss</li>
+</ul></li>
+</ul>
+<p><span style=3D"color: rgb(128,0,128);">VII. Enemy Scrap Ideas:</span></p=
+>
+<ul>
+<li>Enemy types that have been thought of but probably won't be implemented=
+ in game (could be used as variants maybe?)<br>
+<ul>
+<li><span style=3D"color: rgb(255,0,0);">Siren</span>? (like from&nbsp;Odys=
+sey=E2=80=93the book)
+<ul>
+<li>Really tough to implement song mechanic</li>
+<li>Force player to prioritize the Siren
+<ul>
+<li>Gradually particles fill up screen (music notes, like Apollo style?)</l=
+i>
+</ul></li>
+<li>Super frustrating possibly
+<ul>
+<li>Too much work possibly</li>
+</ul></li>
+<li>Avoiding sight?</li>
+</ul></li>
+<li><span style=3D"color: rgb(255,0,0);">Medusa</span>?
+<ul>
+<li>Spend too much time in range of it, gradually turn to stone
+<ul>
+<li>Stone-gaze slows player down (almost to full stop)</li>
+<li>As soon as take damage, get freed</li>
+</ul></li>
+<li>Avoiding sight?
+<ul>
+<li>Moreso than Siren</li>
+</ul></li>
+</ul></li>
+<li><span style=3D"color: rgb(255,0,0);">Hydra/Chimera</span>?
+<ul>
+<li>Too difficult?
+<ul>
+<li>Spriting heads is difficult
+<ul>
+<li>Heads regrow?</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+<p><span style=3D"color: rgb(128,0,128);">VIII. Miscellaneous:</span></p>
+<ul>
+<li><span style=3D"color: rgb(255,102,0);">Grappling Hook</span>
+<ul>
+<li>Wind Waker/Metroid Prime Like (Lost Planet 2?)<br>
+<ul>
+<li><span style=3D"color: rgb(255,102,0);">Grapple enemies</span> to hurt t=
+hem</li>
+<li>Or <span style=3D"color: rgb(255,102,0);">grapple</span> goes through t=
+hem</li>
+</ul></li>
+</ul></li>
+<li>Want player moving, know there's a range attack
+<ul>
+<li>Enemy moves
+<ul>
+<li><span style=3D"color: rgb(255,102,0);">Some mechanic</span> to hurt pla=
+yer if near enemy too much too often</li>
+<li>If player isn't using&nbsp;<span style=3D"color: rgb(255,102,0);">platf=
+orming skills</span>, WILL <span style=3D"color: rgb(0,0,255);">take you do=
+wn</span>
+<ul>
+<li><span style=3D"color: rgb(255,102,0);">High ground</span> so it can't f=
+ollow you?</li>
+<li>Take <span style=3D"color: rgb(255,102,0);">shorter routes</span> than =
+it can to get to you?</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>However player uses ability, must apply pressure to player's&nbsp;<span=
+ style=3D"color: rgb(255,102,0);">movement/ranged weapon</span> to defeat i=
+t</li>
+</ul>
+<p><span style=3D"color: rgb(128,0,128);">IX. Add Ideas about Enemy Design =
+Here</span></p>
+<ul>
+<li>A</li>
+<li>B</li>
+<li>C</li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_1550_1473362098.1637964366103--

@@ -1,0 +1,336 @@
+Date: Fri, 26 Nov 2021 17:09:01 -0500 (EST)
+Message-ID: <1313081910.1613.1637964541401@studio.eecs.umich.edu>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_1612_332844024.1637964541400"
+
+------=_Part_1612_332844024.1637964541400
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Previous Dungeon Objective 2 Documentation</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Previous Dungeon Objective 2 Documentation</h1>
+    <div class=3D"Section1">
+        <p>The player enters an arena and is ultimately locked there until =
+50 or 100 enemies are defeated. Half of the enemies are already in the aren=
+a. As soon as the player sets foot in the arena, the music plays. There are=
+ ultimately 2 waves of enemies; however, the player doesn't know this. Afte=
+r the player kills the 1st wave (the enemies who originally were in the are=
+na), there is at first a sense of relief and then a discombobulating 10-15 =
+second silence. A text dialogue of confusion appears; still silence. And th=
+en out of nowhere (the other half) spawn at once and attack the player. Aft=
+er this 2nd half is defeated an item appears in the center: the <em>Zeus Ma=
+sterBolt</em> (a narrative element, NOT an in-game item to use), guarded by=
+ some of the toughest hordes of enemies. Once the bolt is taken, a door app=
+ears in one of the sides of the walls in the arena; the player goes through=
+ it and either a load screen pops up or the Final Dungeon Objective is visi=
+ble.</p>
+<h1 id=3D"PreviousDungeonObjective2Documentation-CombatArenaDesign">Combat =
+Arena Design</h1>
+<p><u><strong>Aesthetics</strong></u></p>
+<p>Overall the arena should be reminiscent to an ancient Greek&nbsp;<a clas=
+s=3D"external-link" href=3D"https://us-browse.startpage.com/av/anon-image?p=
+iurl=3Dhttps%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F6=
+%2F6a%2FPanathinaiko-Stadion_2014-5.JPG%2F1200px-Panathinaiko-Stadion_2014-=
+5.JPG&amp;sp=3D1615660489T4d2e159edabc6f7e74f8e95dacce2e2ac8ecca642e1e3a8b8=
+cdd0fdefdf391bb" rel=3D"nofollow">Panathenaic Stadium.</a>&nbsp;It can be e=
+ither a circular version of this or an identical oval-shaped replica. When =
+the player enters the 2nd Dungeon Objective, the player actually exits a do=
+or on one side of an <a class=3D"external-link" href=3D"https://us-browse.s=
+tartpage.com/av/anon-image?piurl=3Dhttps%3A%2F%2Fimages.squarespace-cdn.com=
+%2Fcontent%2Fv1%2F54c3b2b0e4b02cf35cf17e99%2F1566502281699-8V1AKO35ZMT2BM6V=
+E7I0%2Fke17ZwdGBToddI8pDm48kKx-BKX2UK3_rGXDOuN8b2hZw-zPPgdn4jUwVcJE1ZvWQUxw=
+kmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIPo5JdTSRlHZa44l=
+8by2qDlu9jx3bfx4iSLLLo_m2sSc%2FPicture3.png&amp;sp=3D1615660801Te69994a8242=
+c144a924fb18657b8d413b4c403326c7c3ff57453a79fe45b2166" rel=3D"nofollow">anc=
+ient Greek pavilion building</a>. The player cannot go back to the 2nd Dung=
+eon again. The player goes through the ancient Greek pavilion building and =
+exits the other side, which is connected to the Combat Arena. As soon as th=
+e player steps foot in the Combat Arena, a magic barrier prevents the playe=
+r from leaving the arena. The arena has no other doors/exits, yet it has so=
+me platforms for cover, which can be either pillars or crumbled bits of rui=
+n.</p>
+<p><u><strong>Slope</strong></u></p>
+<p>The arena is pretty much totally flat for the sheer reason that this is =
+a brutal, challenging yet rewarding mosh pit fight.</p>
+<h1 id=3D"PreviousDungeonObjective2Documentation-EnemyDesign">Enemy Design<=
+/h1>
+<p><u><strong>Number</strong></u></p>
+<p>For now I'm thinking there should be either 50 or 100 enemies in total.<=
+/p>
+<p><u><strong>Type Variety</strong></u></p>
+<p>If possible all 3 enemy types should be in this dungeon. I'm thinking a =
+60:30:10 ratio of Minotaur:Satyr:Phoenix. With playtesting can alter this. =
+Should scope reduce this to 2 enemy types, then I'm thinking a 70:30 ratio =
+of Minotaur:Satyr.</p>
+<p><u><strong>Spawn Points</strong></u></p>
+<p>Overall about <u>half of the enemies will already be spawned in the Comb=
+at Arena</u>. After player kills first set of enemies (the enemies who star=
+ted in the arena) there is a 10-15 second wait of silence; maybe the player=
+ has a text dialogue of thought; then the second wave comes out all at once=
+ from 1-3 spawn points from the stands in the stadium (maybe Phoenices simp=
+ly fly in).</p>
+<h1 id=3D"PreviousDungeonObjective2Documentation-DungeonObjectiveDesign">Du=
+ngeon Objective Design</h1>
+<p><u><strong>What the Combat Objectives Are</strong></u></p>
+<p>Kill 1st Wave of Enemies (either 25 or 50 enemies); Kill 2nd Wave of Ene=
+mies (either 25 or 50 enemies); Grab the item that appears; Enter through t=
+he New Door-in-the-Wall-of-the-Arena that Appears</p>
+<p><u><strong>How the Player Should Feel</strong></u></p>
+<p>The player should feel a sense of confusion and determination to endure.=
+ The player is locked in the arena, and must kill the enemies to escape. As=
+ soon as the player steps foot in the arena, the <u>combat music starts.</u=
+> After defeating the first half of enemies the player feels relief for a s=
+plit second and the music departs, there's silence; however, nothing happen=
+s. A text box then pops up of the player's confused thoughts, yet still not=
+hing happens. Then when the second wave of enemies springs out, the <u>sile=
+nce is replaced by a soft piano version of the song before</u>; the player =
+is gaining clarity yet is losing energy fighting. At the end of it the play=
+er should still feel a bit confused yet determined to keep going. To encour=
+age this ambience the music should combine elements of the song examples fr=
+om the&nbsp;<a href=3D"/confluence/display/PWW2/Revamped+2nd+Dungeon+Object=
+ive">Revamped 2nd Dungeon Objective</a>&nbsp;document.</p>
+<p><u><strong>Design Features Description</strong></u></p>
+<p>The player spawns in an ancient Greek pavilion, having entered from an a=
+ncient Greek-looking door. The player cannot go back to the 2nd Dungeon. Th=
+ere is an eery atmosphere, either no music or a quiet mysterious sound play=
+s. The player moves forward, exiting the pavilion and enters the Combat Are=
+na, which is connected to the pavilion. As soon as the player steps foot in=
+ the arena a tough combat music plays, and there are either 25 or 50 enemie=
+s in the arena, probably all 3 types of enemies. About 60% of the enemies a=
+re Minotaurs, 30% of the enemies are Satyrs, and 10% of the enemies are Pho=
+enices. After killing the 25 or 50 enemies the music turns silent and there=
+ is a 10-30 second wait. After 10-15 seconds a text dialogue appears of Her=
+mes' thought, wondering what to do next. Then the music plays again and the=
+ other 25 or 50 enemies all spawn at about the same time, entering through =
+1-3 hidden doors in the arena wall. After the player downs these 25 or 50 e=
+nemies the music changes to a quick few second grand intro for an item=E2=
+=80=93the Zeus MasterBolt--that appears in the middle of the arena. Once th=
+e player takes the item, the player can go through one of the doors that th=
+e enemies came from. Once the player enters through that door either a load=
+ screen pops up or the Final Dungeon Objective begins.</p>
+    </div>
+</body>
+</html>
+------=_Part_1612_332844024.1637964541400--

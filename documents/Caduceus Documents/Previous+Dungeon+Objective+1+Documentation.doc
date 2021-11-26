@@ -1,0 +1,335 @@
+Date: Fri, 26 Nov 2021 17:08:52 -0500 (EST)
+Message-ID: <1160269623.1605.1637964532881@studio.eecs.umich.edu>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_1604_1646196702.1637964532880"
+
+------=_Part_1604_1646196702.1637964532880
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Previous Dungeon Objective 1 Documentation</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Previous Dungeon Objective 1 Documentation</h1>
+    <div class=3D"Section1">
+        <p>The 1st Dungeon Objective is a test of the player's platforming =
+skills, which is ultimately a platforming challenge where the player gets f=
+rom Point A to Point B. For whatever reason the player must take a risky li=
+near route, going over a chasm by hopping from one floating platform to ano=
+ther floating platform. Point A (where the player enters) is lower than Poi=
+nt B (the other side of the chasm), so the overall slope is slightly angled=
+ upwards. The platforms themselves are at first large in size and easy to j=
+ump to; however, as the player gets closer to the other side the platforms =
+are now each moving in a 2D way (i.e. either up &amp; down or left &amp; ri=
+ght), the platforms get smaller and smaller in size, and the platforms are =
+further apart (making timing of jumps that much more important).&nbsp;</p>
+<h1 id=3D"PreviousDungeonObjective1Documentation-RouteDesign">Route Design<=
+/h1>
+<p><u><strong>Direction</strong></u></p>
+<p>The player moves forward, ultimately going from Point A to Point B. The =
+platforms are floating, and the player goes forward to the end of the room.=
+ There is <u>no going backwards</u>, as a platform will disappear as soon a=
+s a player leaps off of it.</p>
+<p><u><strong>Slope</strong></u></p>
+<p>Since Point A is lower than Point B, the slope will be slightly angled u=
+pwards. The player moves forward while going at an upwards trajectory. This=
+ shouldn't be too steep.&nbsp;</p>
+<p><u><strong>Enemies (or Enemy)</strong></u></p>
+<p>There should be one Minotaur or one Satyr on Point B, as that will make =
+the ending even slightly more difficult and overall satisfying (which would=
+ be good). <em>If this happens that one Minotaur/Satyr could end up being t=
+he project meme.</em></p>
+<h1 id=3D"PreviousDungeonObjective1Documentation-PlatformDesign">Platform D=
+esign</h1>
+<p><u><strong>Shape</strong></u></p>
+<p>The shapes used at the beginning are flat squares, yet as the player is =
+almost at Point B, the shapes become different/obscure. If possible impleme=
+nting unique and distorted shapes would be effective; if not possible then =
+adding in basic circles/polygons would work.</p>
+<p><u><strong>Size</strong></u></p>
+<p>For about the first half of the Dungeon Objective the platforms are the =
+same size and are small (player can't walk very freely on them) yet are eas=
+y to land on and jump off of. At about the <u>halfway point they start to g=
+et smaller in size</u>.</p>
+<p><u><strong>Characteristics</strong></u></p>
+<p>The platforms are solid, yet once the player leaps off of a platform <u>=
+it shall disappear</u>. Also the <u><em>final platform</em></u>&nbsp;has a =
+unique trait; when the player lands on it, it will shoot down very fast, th=
+en slowly go back up again. This is a jolt to the player and <em><strong>is=
+ cause for a memorable experience</strong>.</em></p>
+<p><u><strong>Movement</strong></u></p>
+<p>The first 1/3 of the Dungeon Objective only has stationary platforms (i.=
+e. they don't move). At about the 1/3 distance marker some platforms now mo=
+ve left and right for the rest of the Dungeon Objective. At about the 2/3 d=
+istance marker some platforms now move up and down.</p>
+<p><u><strong>Number</strong></u></p>
+<p>For now I'm thinking of about 30-50+ platforms. However, due to playtest=
+ing scope this number can get reduced, would <u>aim to have a 20 platform m=
+inimum</u> (10's a bit low to convey differences in Dungeon Objective layou=
+t, 20 think would be good enough to have a noticeable difficulty shift as t=
+he player progresses through the Dungeon Objective).</p>
+<h1 id=3D"PreviousDungeonObjective1Documentation-DungeonObjectiveDesign">Du=
+ngeon Objective Design</h1>
+<p><u><strong>What Points A and B Are</strong></u></p>
+<p>Point A is the entrance floor where the player starts. The player comes =
+from a Greek-looking door, and cannot return back to the 1st Dungeon. Point=
+ B is a floor on the other side of the chasm that is somewhat higher up tha=
+n Point A. On Point A there is a lever that can only be activated with the =
+Zeus puzzle pieces gained from the dungeon; the player must activate it to =
+<u>make the platforms appear</u>. On Point B there is a lever that also can=
+ only be activated through using the Zeus puzzle pieces gained from the dun=
+geon; this opens a wide Greek-looking door at the end of it, which when the=
+ player walks through either pops up a load screen or shows the 2nd Dungeon=
+.</p>
+<p><u><strong>How the Player Should Feel</strong></u></p>
+<p>The player should feel like a boss. Also no matter how much power the pl=
+ayer gained throughout the 1st Dungeon this platforming challenge should st=
+ill feel challenging to the player. The player should feel like accomplishi=
+ng this challenge is a run for his/her money. At the end of it the player s=
+hould still feel a bit cocky and confident. To encourage this ambience the =
+music should combine elements of the song examples from the&nbsp;<a href=3D=
+"/confluence/display/PWW2/Revamped+1st+Dungeon+Objective+Design">Revamped 1=
+st Dungeon Objective Design</a>&nbsp;document.</p>
+<p><u><strong>Design Features Description</strong></u></p>
+<p>The player first activates the lever at Point A using the Zeus puzzle pi=
+eces collected from the 1st Dungeon, which <u>makes the platforms in the ch=
+asm appear</u>. The player must move forward hopping from one floating plat=
+form to another, platforms which are set at an angle since Point&nbsp;B=E2=
+=80=93where the player needs to get&nbsp;to=E2=80=93is slightly higher up t=
+han Point A. At about the <u>1/3 distance marker</u> some platforms now mov=
+e left and right for the rest of the Dungeon Objective. At about the <u>hal=
+fway point</u> the platforms start to get smaller and are more irregular sh=
+apes than simple squares. At about the <u>2/3 distance marker</u> some plat=
+forms now also move up and down. The final platform is front and center and=
+ is super close to Point B, a futuristic-looking floor. When the player <u>=
+lands on the final platform it falls downwards rapidly</u>, going even lowe=
+r than Point A's elevation for a scare to the player; after that <u>it will=
+ slowly rise back to where it was</u>, and if the player is still on it the=
+n the player can safely hop onto Point B. Using pieces obtained from the 1s=
+t Dungeon the player activates the lever/node in the middle of Point B, and=
+ a big Greek-looking door opens. The player goes through it, and either a l=
+oad screen pops up or the 2nd Dungeon can be seen.</p>
+    </div>
+</body>
+</html>
+------=_Part_1604_1646196702.1637964532880--

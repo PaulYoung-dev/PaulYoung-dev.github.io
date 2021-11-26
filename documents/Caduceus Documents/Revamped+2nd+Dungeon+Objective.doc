@@ -1,0 +1,494 @@
+Date: Fri, 26 Nov 2021 17:08:11 -0500 (EST)
+Message-ID: <702178737.1575.1637964491695@studio.eecs.umich.edu>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_1574_1608920906.1637964491694"
+
+------=_Part_1574_1608920906.1637964491694
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Revamped 2nd Dungeon Objective</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Revamped 2nd Dungeon Objective</h1>
+    <div class=3D"Section1">
+        <p><em>*This is the documentation for the new 2nd Dungeon Objective=
+, we will be using this one for the game*</em></p>
+<p><em>VOCABULARY LEGEND:</em></p>
+<ul>
+<li><span style=3D"color: rgb(255,0,0);">Red =3D Milestone Skill</span></li=
+>
+<li><span style=3D"color: rgb(0,128,0);">Green =3D Dungeon Name</span></li>
+<li><span style=3D"color: rgb(0,0,255);">Blue =3D Dungeon Structure</span><=
+/li>
+<li><span style=3D"color: rgb(255,102,0);">Orange =3D Item/Mechanic Name or=
+ Action</span></li>
+<li><span style=3D"color: rgb(255,204,0);">Gold =3D Aesthetic/Narrative Ele=
+ment</span></li>
+</ul>
+<p><u><strong>Second Dungeon Objective New Blueprint:</strong></u></p>
+<ul>
+<li><span style=3D"color: rgb(128,0,0);">Ultimately this DO is a <u>Combat&=
+nbsp;Challenge</u></span></li>
+<li><span style=3D"color: rgb(128,0,0);">Ultimately this DO is a test for t=
+he player's combat abilities, which is excellent prep for the Final DO Towe=
+r Objective</span></li>
+<li><span style=3D"color: rgb(128,0,0);">Player enters through classic Dung=
+eon door (can't go back through door)</span></li>
+<li><u><span style=3D"color: rgb(128,0,0);">Still in Progress, Should Pick =
+an Idea/Concept to Run With Before Writing Instructions</span></u></li>
+</ul>
+<p><u><strong><span style=3D"color: rgb(0,0,0);">How the Player Should Feel=
+ in this Dungeon Objective:</span></strong></u></p>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Confusion (what is the purpose of it=
+ all?), Trying to Understand Purpose of Actions and if Fighting for the Rig=
+ht Side, the "Good Guys"</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Going to Press on No Matter What and=
+ Find out the Truth</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Example Music:&nbsp;</span></li>
+<li><span style=3D"color: rgb(0,0,0);"><iframe class=3D"youtube-player" typ=
+e=3D"text/html" style=3D"width: 400px; height: 300px" src=3D"//www.youtube.=
+com/embed/7s6v2L5ASTw?wmode=3Dopaque" frameborder=3D"0" webkitallowfullscre=
+en mozallowfullscreen allowfullscreen> </iframe> &nbsp;(Fire Emblem Three H=
+ouses: Indomitable Will Piano Cover)</span></li>
+<li><span style=3D"color: rgb(0,0,0);"><iframe class=3D"youtube-player" typ=
+e=3D"text/html" style=3D"width: 400px; height: 300px" src=3D"//www.youtube.=
+com/embed/4qBOgXPLwBY?wmode=3Dopaque" frameborder=3D"0" webkitallowfullscre=
+en mozallowfullscreen allowfullscreen> </iframe> &nbsp;(Fire Emblem Three H=
+ouses: Indomitable Will OST)</span></li>
+<li><iframe class=3D"youtube-player" type=3D"text/html" style=3D"width: 400=
+px; height: 300px" src=3D"//www.youtube.com/embed/5nLEslHKz4w?wmode=3Dopaqu=
+e" frameborder=3D"0" webkitallowfullscreen mozallowfullscreen allowfullscre=
+en> </iframe> &nbsp;(Fire Emblem Sacred Stones: Determination, Remastered)&=
+nbsp;
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Honestly think it <u>should start wi=
+th what the OST sounds like</u> and as player <u>nears finishing objective =
+sounds like Piano Cover</u></span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Starts off with confusion and then r=
+aw determination</span></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);">OR arrange other way around: start w=
+ith <u>Piano</u> and then <u>OST</u> versions</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Starts off with raw determination wh=
+ich is pounded out by oblivion</span></li>
+</ul></li>
+</ul></li>
+</ul>
+<p><u><strong>Second Dungeon Objective Pitch Ideas:</strong></u></p>
+<ul>
+<li><u>Classic Arena Style</u>
+<ul>
+<li>2 Ways to Implement Enemies
+<ul>
+<li>Randomized enemies</li>
+<li>Predetermined amount of enemies</li>
+<li>Would recommend all 3 types of enemies for both cases to really test th=
+e player's combat abilities
+<ul>
+<li>Unless of course goal for Final Dungeon/Final DO is to unleash a new sp=
+ecific enemy type
+<ul>
+<li>If this is the case, then would utilize two enemy types in Classic Aren=
+a</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Aesthetics
+<ul>
+<li>A Greek pavilion (Panathenaic Stadium)</li>
+<li><span class=3D"confluence-embedded-file-wrapper"><img class=3D"confluen=
+ce-embedded-image confluence-external-resource" alt=3D"The Panathenaic Stad=
+ium, Miracle in Marble - Greece Is" src=3D"https://www.startpage.com/av/pro=
+xy-image?piurl=3Dhttps%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtb=
+n%3AANd9GcQvgaQ_59iOYJL3BC1jzEsNSeXJ0__ujouq2hrQE6ut_eHKiB2Y%26s&amp;sp=3D1=
+615482575T5e4bd4024879cc413e1188cee592ad0f45d4f7f965793c643a37a1ab47082f17"=
+ data-image-src=3D"https://www.startpage.com/av/proxy-image?piurl=3Dhttps%3=
+A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQvgaQ_59iOYJL3=
+BC1jzEsNSeXJ0__ujouq2hrQE6ut_eHKiB2Y%26s&amp;sp=3D1615482575T5e4bd4024879cc=
+413e1188cee592ad0f45d4f7f965793c643a37a1ab47082f17"></span>&nbsp;(Modern Da=
+y Additions to Ancient Panathenaic Stadium)</li>
+<li>Some sort of outdoor arena, could be more circular than this</li>
+</ul></li>
+</ul></li>
+<li><u>Survive Until You Die (or get to 5% Health) Arena</u>
+<ul>
+<li><a href=3D"/confluence/display/PWW2/Dungeon+Objective+Research">See Hal=
+o Reach: Lone Wolf Objective section in the Dungeon Objective Research docu=
+ment for more info/examples</a></li>
+<li>I personally prefer the 5%&nbsp;part=E2=80=93leads up to Final Dungeon =
+Objective part of getting swarmed by enemies
+<ul>
+<li>Much easier for narrative</li>
+<li>Also super unique</li>
+</ul></li>
+<li>Regardless of strategy, player keeps fighting an unlimited wave of enem=
+ies until reaching the health threshold</li>
+<li>Tougher enemies have a higher chance of being spawned over time
+<ul>
+<li>In the aforementioned Halo Reach example, player soon fights several al=
+ien Wraith tanks (and I think even air-strikes)</li>
+<li><span class=3D"confluence-embedded-file-wrapper"><img class=3D"confluen=
+ce-embedded-image confluence-external-resource" alt=3D"Type-26 Wraith - Veh=
+icle - Halopedia, the Halo wiki" src=3D"https://www.startpage.com/av/proxy-=
+image?piurl=3Dhttps%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3=
+AANd9GcSKVxQbjPB1gRKjjajcna9LM9wpdG_XSOplZLniAOvqu3ztOIoK%26s&amp;sp=3D1615=
+480679Tf8bfb703633dd6d9e56b742f81a4867f844ec6daa889b5455e6b59d47e3e3677" da=
+ta-image-src=3D"https://www.startpage.com/av/proxy-image?piurl=3Dhttps%3A%2=
+F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSKVxQbjPB1gRKjjaj=
+cna9LM9wpdG_XSOplZLniAOvqu3ztOIoK%26s&amp;sp=3D1615480679Tf8bfb703633dd6d9e=
+56b742f81a4867f844ec6daa889b5455e6b59d47e3e3677"></span>&nbsp;(Wraith Tank)=
+</li>
+</ul></li>
+<li>It could be a <u>firefight</u> instead
+<ul>
+<li><a class=3D"external-link" href=3D"https://halo.fandom.com/wiki/Firefig=
+ht" rel=3D"nofollow">Halo 3 ODST Firefight</a></li>
+<li><iframe class=3D"youtube-player" type=3D"text/html" style=3D"width: 400=
+px; height: 300px" src=3D"//www.youtube.com/embed/2wTamaYfr7c?wmode=3Dopaqu=
+e" frameborder=3D"0" webkitallowfullscreen mozallowfullscreen allowfullscre=
+en> </iframe> &nbsp;(Halo 3 ODST Firefight)</li>
+<li>Halo Reach Firefight</li>
+<li><iframe class=3D"youtube-player" type=3D"text/html" style=3D"width: 400=
+px; height: 300px" src=3D"//www.youtube.com/embed/Lzft2MUOALo?wmode=3Dopaqu=
+e" frameborder=3D"0" webkitallowfullscreen mozallowfullscreen allowfullscre=
+en> </iframe> &nbsp;(Halo Reach Firefight)</li>
+<li>Concept has potential for meme-hype, lots of potential for a defining g=
+ame Dungeon Objective that <u>people would talk about</u></li>
+<li><iframe class=3D"youtube-player" type=3D"text/html" style=3D"width: 400=
+px; height: 300px" src=3D"//www.youtube.com/embed/Q_VBSM672TU?wmode=3Dopaqu=
+e" frameborder=3D"0" webkitallowfullscreen mozallowfullscreen allowfullscre=
+en> </iframe> &nbsp;(Halo Reach 24 Hour Challenge Survival in Firefight, no=
+t a Total Meme Video)</li>
+</ul></li>
+</ul></li>
+<li><u>Boss Fight</u>
+<ul>
+<li>I know the boss was cancelled; regardless, could do this:
+<ul>
+<li>Simply change the characteristics of a higher-tier (either tier 2 or 3,=
+ the Satyr or the Phoenix) enemy only in the 2nd DO
+<ul>
+<li>Have only one of that higher-tier enemy in the arena</li>
+<li>Change its health, damage output to player</li>
+</ul></li>
+<li>Could have time limit or not</li>
+</ul></li>
+</ul></li>
+<li><u>Non-Level Dungeon Objective</u>
+<ul>
+<li><a href=3D"https://studio.eecs.umich.edu/confluence/pages/resumedraft.a=
+ction?draftId=3D21629048&amp;draftShareId=3D375db353-d836-43e3-9d95-89f088a=
+0d986&amp;" rel=3D"nofollow">See Shadow the Hedgehog section in the Dungeon=
+ Objective Research document for more info/examples</a></li>
+<li>Shadow the Hedgehog: Choices Mechanism
+<ul>
+<li>Level Objectives are determined by which of 2-3 missions a player choos=
+es to accomplish (Multiple Endings)</li>
+</ul></li>
+<li>If using this Dungeon Objective--since it is throughout the&nbsp;level=
+=E2=80=93there will be <u>no final room</u>
+<ul>
+<li>Instead, whichever of 2-3 choices a player picks, that will determine t=
+he 2nd Dungeon Objective
+<ul>
+<li>Or could simply change how Final Dungeon Objective works (e.g., changin=
+g enemy types from difficult to easy or vice versa)</li>
+<li>This strategy would ease up scope and utilize an Objective style that i=
+s rarely used, it's pretty unique</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><u>Supplementary Dungeon Objective: (AKA, Extra Objective on Top of Com=
+bat to Differentiate It)</u>
+<ul>
+<li>Player has to shoot 5 targets while surviving whatever
+<ul>
+<li>With or without a time limit</li>
+<li>Enemies would be very distracting for the player</li>
+</ul></li>
+<li>Player can win the objective early by activating hidden levers
+<ul>
+<li>In corners/sides of the outdoor arena</li>
+</ul></li>
+</ul></li>
+</ul>
+<p><u><strong>List of 2nd DO Arena Characteristics/Goals</strong></u></p>
+<ul>
+<li>Make an arena
+<ul>
+<li>Randomized or determined enemies spawn
+<ul>
+<li>Could randomize when they spawn</li>
+</ul></li>
+</ul></li>
+<li>Goal: Just Kill Stuff
+<ul>
+<li>Platforming would only help a bit with getting cover
+<ul>
+<li>Player decides how to use cover</li>
+</ul></li>
+<li>Bunch of enemies, player has to use map optimally</li>
+</ul></li>
+</ul>
+<p><u><strong>List of Single Mechanisms Player Can Do</strong></u></p>
+<ul>
+<li>Lever that can activate/deactivate with world in on/off fashion</li>
+<li>Enemies (3 Types) that can spawn in over time</li>
+<li>Things We Could Do (Not Implemented Yet)
+<ul>
+<li>Door open close</li>
+<li>Platforms move up and down</li>
+<li>Transporting/teleporting player from one location to another</li>
+</ul></li>
+<li>Can Dash</li>
+<li>Can Double Jump</li>
+<li>Can Melee-to-Air</li>
+<li>Can Shoot Weapon</li>
+<li>Can Shoot Charged Projectile From Weapon</li>
+<li>Keys to activate/unlock&nbsp;</li>
+</ul>
+<p><strong><u>Differentiation from Final Dungeon Objective Tower Room:</u><=
+/strong></p>
+<ul>
+<li>Final DO you can use platforming abilities to promote <u>surviving</u><=
+/li>
+<li>2nd DO you can use combat abilities
+<ul>
+<li>DO promotes <u>fighting</u></li>
+</ul></li>
+<li>Gotta think more about Final DO</li>
+<li>2nd DO <u>much simpler</u></li>
+<li>Imagine like 5 or 7 spawn points
+<ul>
+<li>2 are active at a time</li>
+<li>Kiting enemies</li>
+</ul></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_1574_1608920906.1637964491694--

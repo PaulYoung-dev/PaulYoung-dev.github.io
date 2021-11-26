@@ -1,0 +1,743 @@
+Date: Fri, 26 Nov 2021 17:07:33 -0500 (EST)
+Message-ID: <1372052373.1567.1637964453532@studio.eecs.umich.edu>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_1566_43005198.1637964453531"
+
+------=_Part_1566_43005198.1637964453531
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Old 1st Dungeon Objective Iteration</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Old 1st Dungeon Objective Iteration</h1>
+    <div class=3D"Section1">
+        <p><strong>*</strong><em>Only thing left to do is organize informat=
+ion</em><strong>*</strong></p>
+<p><u><strong>1st Dungeon Objective Blueprint:</strong></u></p>
+<ul>
+<li><span style=3D"color: rgb(128,0,0);">After the player collects all the =
+required node puzzle pieces throughout the Dungeon, the player can go throu=
+gh the Dungeon Objective door</span></li>
+<li><span style=3D"color: rgb(128,0,0);">Player enters a big room, which is=
+ the biggest room of the dungeon with a deep background depicting a large e=
+xpanse with clouds and sky</span></li>
+<li><span style=3D"color: rgb(128,0,0);">The door closes on the player, so =
+no returning back to the main dungeon portion</span></li>
+<li><span style=3D"color: rgb(128,0,0);">The player advances along a wide a=
+nd straight path towards a tall spire/tower coursing with electricity</span=
+></li>
+<li><span style=3D"color: rgb(128,0,0);">The player jumps towards the top, =
+hopping on one cloud at a time</span></li>
+<li><span style=3D"color: rgb(128,0,0);">Each time the player hops off of o=
+ne cloud, the cloud disappears; also, if the player stays on a cloud for to=
+o long, it disappears</span></li>
+<li><span style=3D"color: rgb(128,0,0);">Upon reaching the summit, the play=
+er enters a room and either puts together puzzle pieces or hits a button on=
+ the pedestal in the middle of the room</span></li>
+<li><span style=3D"color: rgb(128,0,0);">Upon triggering the button/puzzle,=
+ the cloud node starts operating again, which starts locking away Typhon's =
+essence, causing him to bellow</span></li>
+<li><span style=3D"color: rgb(128,0,0);">After this screech of pure chaos, =
+it alerts enemies to try to turn it off before Typhon's presence is complet=
+ely removed from the node</span></li>
+<li><span style=3D"color: rgb(128,0,0);">Player must defend against enemies=
+ for two minutes using dash and melee-to-air to fend them off</span></li>
+<li><span style=3D"color: rgb(128,0,0);">Enemies are set up in such a way s=
+o player can quickly combine dash and melee-to-air mechanics to combo them =
+repeatedly</span></li>
+<li><span style=3D"color: rgb(128,0,0);">After this Typhon's essence is gon=
+e, player still thinks Zeus is good guy (whether he is or isn't) and climbs=
+ up the shallow-angled ramp that the enemies used to get to the room</span>=
+</li>
+</ul>
+<p><u><strong>1st Dungeon Objective Plans:</strong></u></p>
+<p>At least default platforming mechanics (dash &amp; melee-to-air)</p>
+<ul>
+<li>Weapon augmentations</li>
+<li>Milestone skills (attached to each of 3 stat trees)
+<ul>
+<li>Replace the same or more platforming capabilities (default platforming =
+mechanics still applies to upgraded version)</li>
+</ul></li>
+<li>Open up opportunities for other mechanics to have purpose</li>
+<li>During playtesting we'll have some other milestone skills, test out var=
+ious skills (see if I can make shortcuts to navigate trees)
+<ul>
+<li>E.g., double jump or glide, which one's quicker</li>
+</ul></li>
+</ul>
+<p><u><strong>1st Dungeon Objective Narrative Notes:</strong></u></p>
+<ul>
+<li>Area is a far reach of the Cloud Interior, containing a significant Key=
+ Node
+<ul>
+<li>Key Nodes: Called Rain Accumulators
+<ul>
+<li>Releases rain and stuff, clogged by Typhon's Aureole (part of his essen=
+ce)</li>
+<li>Typhon's essence is split up, body is reforming where essence is divide=
+d</li>
+</ul></li>
+<li>Player's objective is to eliminate Typhon's essence, which is blocking =
+the node, and is accomplished through activating it</li>
+<li>Since Typhon resists the machinery, player must defend node from enemy =
+swarms for two minutes so they don't deactivate it</li>
+<li>Hit it a bunch!!! (Kilt it?!)</li>
+</ul></li>
+<li>Instead of a traditional alarm (we'll assume Typhon's forces and stuff =
+broke the Cloud Interior's alarm system), Typhon bellows (in pain and to al=
+ert forces)
+<ul>
+<li>Enemies swarm to close off emergency, come from a ramp that leads upwar=
+ds at a shallow angle steering towards the right
+<ul>
+<li>Some literally pour out of pipes? (Up to scope)</li>
+</ul></li>
+</ul></li>
+<li>Gather pieces of water/something throughout level, and then put togethe=
+r to "activate" button
+<ul>
+<li>Floor/pedestals
+<ul>
+<li>Prompt that says "A" or "Space"</li>
+</ul></li>
+</ul></li>
+<li>Clouds Disappear as player Jumps to go to elevation (or some kind of ha=
+zard rising, such as flood due to water flow going somewhere else? Any expl=
+anation works here)</li>
+<li>What I want to happen</li>
+<li>This Destination Room is bigger than other rooms in the dungeon</li>
+</ul>
+<p><u><strong>Dungeon Objective Patterns Across Dungeons Narrative Notes:</=
+strong></u></p>
+<ul>
+<li>Starting to think about patterns and differences between Dungeon Object=
+ives when comparing all the dungeons
+<ul>
+<li>Probably Dungeons 1 &amp; 2 are similar in nature with a difference in =
+platforming mechanics emphasized and how the objectives are accomplished</l=
+i>
+</ul></li>
+<li>Differences between Nodes?
+<ul>
+<li>Same kinds of dungeons?</li>
+<li>Different story challenges?
+<ul>
+<li>Dual-difference maker (going on&nbsp;@ same time is possible)
+<ul>
+<li>1st thing: Over time suspecting more and more about morals of actions (=
+learning more about destroying Typhon as a bad thing)
+<ul>
+<li>Back and forth? (Typhon bad guy! No, Zeus bad guy! ???)</li>
+</ul></li>
+<li>2nd thing: Personal struggles (5 stages of grief)</li>
+<li>What differentiates them?</li>
+</ul></li>
+<li>Narrative Reveals also!
+<ul>
+<li>At ends of each Dungeon Objective</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Level &amp; Narrative Design Merge
+<ul>
+<li>Clouds (Storm clouds as an emotion)
+<ul>
+<li>Showing greater tumult (gets more vexed over time)</li>
+<li>Him being made whole again storm becomes stronger
+<ul>
+<li>Scary cause end of the world and (progression thing)</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>1st Dungeon Details<br>
+<ul>
+<li>Lesser epic staircase as compared to Final Dungeon vision for reaching =
+the node</li>
+<li>Build up importance</li>
+<li>Time Trial
+<ul>
+<li>Ring of platforms (circling around you/main platform)
+<ul>
+<li>Disappear platforms
+<ul>
+<li>Less area to defend/accomplish over the two minute enemy swarm</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Difficulties:
+<ul>
+<li>Varying?
+<ul>
+<li>Each subsequent Dungeon Objective is more difficult for player
+<ul>
+<li>After accounting for XP/Weapon/Stat buffs gained from each Dungeon&nbsp=
+;</li>
+<li>1st Dungeon will be easiest, 2nd Dungeon will be tougher (even after fa=
+ctoring in stat boosts), Final Dungeon will be toughest (nasty boss fight, =
+makes Dark Souls bosses weak, that way when player beats boss fight feels r=
+ightfully accomplished)</li>
+</ul></li>
+<li>If game has multiple difficulty modes, then Dungeon Objective factors m=
+ay change to accommodate
+<ul>
+<li>For example, in + mode clouds may disappear faster when climbing up to =
+summit</li>
+</ul></li>
+<li>Timing of platform disappearances</li>
+<li>Platform positions/motion routes/paths</li>
+<li>Enemy stats, number of enemies, and enemy type ratios encountered</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>2nd Dungeon Details
+<ul>
+<li>More air-mechanics-focused
+<ul>
+<li>More of an actual climb</li>
+<li>Glide and/or grapple emphasized</li>
+<li>Enemies shooting dart projectiles more</li>
+<li>Glide to air chutes that lift player upwards
+<ul>
+<li>Kind of like gravity lifts from Halo</li>
+<li>Could make multiple sections where player has to steer gliding and keep=
+s hitting gravity lifts to sustain upward flight</li>
+<li>In a spiral notion around a tower/spire</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Final Dungeon Details
+<ul>
+<li>Lightning effects more pronounced closer to end</li>
+<li>Climbing some kind of epic staircase</li>
+<li>Sparkplug Thing
+<ul>
+<li>I like it</li>
+</ul></li>
+</ul></li>
+</ul>
+<p><u><strong>Level Design Notes:</strong></u></p>
+<ul>
+<li>Dungeon Objectives should differ</li>
+<li>Having pieces and keys throughout dungeons
+<ul>
+<li>Keys unlock doors</li>
+<li>Pieces so they go through almost or all of dungeon</li>
+</ul></li>
+<li>Sloping slowly upwards game&nbsp;
+<ul>
+<li>1st Dungeon
+<ul>
+<li>Classic Enemy Swarm</li>
+<li>No load screen needed</li>
+<li>Trap the player in the room</li>
+<li>Jumping from cloud to cloud to climb?</li>
+<li>Dash to Melee-to-Air is Niche mechanic
+<ul>
+<li>Advanced technique?</li>
+<li>Not reliant on it</li>
+</ul></li>
+</ul></li>
+<li>2nd Dungeon
+<ul>
+<li>Very different!
+<ul>
+<li>Bit of combat at end also</li>
+<li>Grapple an enemy?
+<ul>
+<li>Grapple/glide combo mechanic? (switch between two?)
+<ul>
+<li>Gets platform/player mechanic combo</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Maximizes on new mechanics</li>
+<li>Look at Legend of Zelda puzzles
+<ul>
+<li>Have player interact with mechanics</li>
+<li>Descending?
+<ul>
+<li>Probably not</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Final Dungeon Objectives
+<ul>
+<li>As big and far as want
+<ul>
+<li>As long as accomplishes DO goals</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+<p><u><strong>Audio Design Notes:</strong></u></p>
+<ul>
+<li>Music change when event triggers
+<ul>
+<li>Typhon bellows (explains swarms of enemies)</li>
+</ul></li>
+<li>Music as soon as enters room changes
+<ul>
+<li>Change same track?</li>
+<li>Entirely new track</li>
+<li>Take/Add instruments to room</li>
+</ul></li>
+<li>Similar kind of "almost more heroic/dark/more effort kind of music" for=
+ the DOs
+<ul>
+<li>Exploration Music
+<ul>
+<li>Bradley's writing this</li>
+<li>Piece that supports both exploration and small skirmishes
+<ul>
+<li>No drums</li>
+<li>Sparse and ambient
+<ul>
+<li>Like Skyrim</li>
+</ul></li>
+</ul></li>
+<li>Plan to have some layer enter/exit (based on combat/non-combat)
+<ul>
+<li>Seamlessly flows in and out</li>
+<li>Combine with programming to make sense</li>
+</ul></li>
+<li>Instrumentation
+<ul>
+<li>Electro-acoustic sound</li>
+<li>Draw inspiration from BoTW
+<ul>
+<li>Also taking it in a more classical/orchestral direction (for the Greek =
+stuff)</li>
+</ul></li>
+<li>Bringing that steampunk FLAVOR into the classical/orchestral compositio=
+n process</li>
+</ul></li>
+</ul></li>
+<li>Battle Music</li>
+</ul></li>
+<li>Dungeon Objective Music
+<ul>
+<li>Much more drum happy
+<ul>
+<li>Audio Preview (check it out!)</li>
+<li>Epic &amp; Heroic &amp; Orchestral</li>
+</ul></li>
+</ul></li>
+<li>Paul's Idea for 1st Dungeon Objective (general sounds theme)
+<ul>
+<li>Techno/Classical/Battle</li>
+</ul></li>
+</ul>
+<p><u><strong>UI Notes:</strong></u></p>
+<ul>
+<li>Wait for further game progress</li>
+<li>Make UI design change slightly when player enters any Dungeon Objective
+<ul>
+<li>For dramatic effect, make player more immersed, and maybe to signify mo=
+re pressure on the player (whether literal from factory or mental or both)<=
+/li>
+</ul></li>
+</ul>
+<p><u><strong>Enemy Notes:</strong></u></p>
+<ul>
+<li>#&nbsp;of Enemies in 1st Dungeon Objective:
+<ul>
+<li>Specific number?</li>
+</ul></li>
+<li>Enemy Types in 1st Dungeon Objective:
+<ul>
+<li>Knowing what combat is going to be (it's a bow-like weapon using the ca=
+duceus)
+<ul>
+<li>Elements of precision</li>
+</ul></li>
+</ul></li>
+<li>All 3 Enemy Types
+<ul>
+<li>Mostly Minotaur Type</li>
+</ul></li>
+<li>Enemy Mechanics to Challenge Player
+<ul>
+<li>Charge (makes player rely on dash)</li>
+</ul></li>
+</ul>
+<p><u><strong>Platforming Notes:</strong></u></p>
+<ul>
+<li>Dash and Melee-to-Air (Use in 1st Dungeon); Glide (Use in 2nd Dungeon) =
+and Grapple (Use in 2nd or Final)</li>
+<li>Distinguish the Dungeons from each other:
+<ul>
+<li>For example, unlock the Grapple after beating 1st Dungeon Objective</li=
+>
+<li>Want to give player new ability at end of each dungeon, including Final=
+ Dungeon (may help with decision-making for final choice in game)</li>
+</ul></li>
+<li>1st Dungeon Emphasizes:
+<ul>
+<li>Dash</li>
+<li>Melee-to-Air&nbsp;</li>
+<li>Dungeon Objective:
+<ul>
+<li>Culmination of Dash &amp; Melee-to-Air</li>
+</ul></li>
+<li>Enemies set so player melee-to-air transitioning to dash to another ene=
+my to gain momentum, then jump up to fix/break pipe thingy (whatever DO eve=
+nt trigger is in room)</li>
+<li>Melee-to-Air combo dodging Satyr projectiles (could be for 2nd Dungeon =
+Objective instead)</li>
+<li>As player is climbing
+<ul>
+<li>Enemies shooting projectiles (cannons shooting projectiles)
+<ul>
+<li>Player can use dash &amp; melee-to-air on projectiles to gain momentums=
+</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>2 Ways to Go About This:
+<ul>
+<li>Either dungeons test player's abilities and ONLY get new ability AFTER =
+final part of DO</li>
+<li>OR dungeon tests player's abilities and then giving a new platforming a=
+bility at the final part of DO</li>
+<li>OR 3rd Way?</li>
+</ul></li>
+<li>2nd Dungeon Emphasizes:
+<ul>
+<li>Glide&nbsp;</li>
+<li>Grapple also? (or weapon augmentation OR grab off enemy in early middle=
+ part of 2nd Dungeon OR end of 2nd)</li>
+<li>Go to node, hit button, defend against enemies AND/OR use Glide to esca=
+pe tower and Grapple to the Final Dungeon beginning</li>
+</ul></li>
+<li>3rd Dungeon Has Final Boss, different DO</li>
+</ul>
+<p><br></p>
+<p><u><strong>Weapon, Abilities, Skills and Stats Notes:</strong></u></p>
+<ul>
+<li>Wait until these are updated</li>
+<li>Once they're updated, incorporate shortcuts in the Dungeon Objective to=
+ reward the player for certain upgrades
+<ul>
+<li>Example: Using the grappling hook to swing around the tower for the 1st=
+ Dungeon Objective
+<ul>
+<li>Much quicker than the cloud-hopping formula
+<ul>
+<li>Not as safe probably, but way cooler and much quicker</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+<p>--</p>
+<p><u><strong>Rough Draft Ideas:</strong></u></p>
+<ul>
+<li>Mechanic Highlights:&nbsp;
+<ul>
+<li>Difficulty Accruement
+<ul>
+<li>1st Dungeon: Platforming Basics
+<ul>
+<li>Player:
+<ul>
+<li>Emphasize Jump Mechanic</li>
+</ul></li>
+<li>Enemy:
+<ul>
+<li>Emphasize Minotaur-type design (complements jump)</li>
+</ul></li>
+<li>Level:
+<ul>
+<li>Currency: ?</li>
+<li>XP: ?</li>
+</ul></li>
+</ul></li>
+<li>2nd Dungeon:
+<ul>
+<li>Player:
+<ul>
+<li>Emphasize Dash Mechanic</li>
+</ul></li>
+<li>Enemy:
+<ul>
+<li>Emphasize Satyr/Dryad-type design (complements dash)</li>
+</ul></li>
+<li>Level:
+<ul>
+<li>Currency: ?</li>
+<li>XP: ?</li>
+</ul></li>
+</ul></li>
+<li>Final Dungeon:
+<ul>
+<li>Player:
+<ul>
+<li>Emphasize Glide Mechanic</li>
+</ul></li>
+<li>Enemy:
+<ul>
+<li>Emphasize&nbsp;</li>
+</ul></li>
+<li>Level:
+<ul>
+<li>Currency: ?</li>
+<li>XP: ?</li>
+</ul></li>
+</ul></li>
+<li>(3rd):&nbsp;</li>
+<li>(4th):</li>
+</ul></li>
+<li>New Abilities/Mechanics Accruement
+<ul>
+<li>1st Dungeon: Light-shoes as Mechanic/New Ability</li>
+<li>2nd Dungeon: Grapple as Mechanic/New Ability</li>
+<li>Final Dungeon: Glide as Mechanic/New Ability</li>
+<li>(3rd):</li>
+<li>(4th):</li>
+</ul></li>
+</ul></li>
+<li>Action/Puzzle Rooms
+<ul>
+<li>Variants from each other
+<ul>
+<li>Easier for program/art/audio</li>
+</ul></li>
+<li>1st Dungeon:
+<ul>
+<li>Hydra/Chimera OR Typhoon Aureole</li>
+</ul></li>
+<li>2nd Dungeon:
+<ul>
+<li>Hydra/Chimera OR Typhoon Aureole</li>
+</ul></li>
+<li>Final Dungeon:
+<ul>
+<li>Echidna Takedown!</li>
+</ul></li>
+</ul></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_1566_43005198.1637964453531--

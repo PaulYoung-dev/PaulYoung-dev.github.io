@@ -1,0 +1,404 @@
+Date: Fri, 26 Nov 2021 17:09:28 -0500 (EST)
+Message-ID: <338022719.1641.1637964568165@studio.eecs.umich.edu>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_1640_58933404.1637964568165"
+
+------=_Part_1640_58933404.1637964568165
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Dungeon Objective Research</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Dungeon Objective Research</h1>
+    <div class=3D"Section1">
+        <p><u><strong>Specific Dungeon Objective Stratagems</strong></u></p=
+>
+<ul>
+<li><a class=3D"external-link" href=3D"https://www.gamedev.net/forums/topic=
+/688870-dungeon-objectives-in-randomized-rpg/" rel=3D"nofollow">Dungeon Obj=
+ectives in Randomized RPGs</a></li>
+</ul>
+<p><u><strong>Game Examples of Objective Mechanisms:</strong></u></p>
+<ul>
+<li><u>Legend of Zelda Ocarina of Time: Final Dungeon Objective Mechanism</=
+u>
+<ul>
+<li>Legend of Zelda OoT Climb Down Dungeon Tower (For Cloud Interior's Fina=
+l Dungeon Objective would be Reverse of This)</li>
+<li>&nbsp;<u><strong><iframe class=3D"youtube-player" type=3D"text/html" st=
+yle=3D"width: 400px; height: 300px" src=3D"//www.youtube.com/embed/CDxeVDmv=
+tLo?wmode=3Dopaque" frameborder=3D"0" webkitallowfullscreen mozallowfullscr=
+een allowfullscreen> </iframe> </strong></u></li>
+</ul></li>
+<li><u>Lost Planet 2: Throughout Level Mission Objectives</u>
+<ul>
+<li>Capitalizes upon having the player activate checkpoint nodes throughout=
+ level (Also Activate Items for Different Purposes)</li>
+<li><a class=3D"external-link" href=3D"https://www.trueachievements.com/gam=
+e/Lost-Planet-2/walkthrough/3" rel=3D"nofollow">Lost Planet 2 Guide and Wal=
+kthrough</a></li>
+</ul></li>
+</ul>
+<p><span class=3D"confluence-embedded-file-wrapper confluence-embedded-manu=
+al-size"><img class=3D"confluence-embedded-image confluence-external-resour=
+ce" height=3D"250" src=3D"https://wallpapercave.com/wp/HF1XLVx.jpg" data-im=
+age-src=3D"https://wallpapercave.com/wp/HF1XLVx.jpg"></span></p>
+<p><em>(The image originally here was deleted from the internet, so it has =
+now been replaced with this one)</em></p>
+<ul>
+<li><u>Halo Reach: Objectives Merged with FPS Fighting</u>
+<ul>
+<li>Final Game Objective is an endless fight where the player has to lose (=
+Great Narrative Value and Unique)&nbsp;</li>
+<li><a class=3D"external-link" href=3D"https://halo.fandom.com/wiki/Lone_Wo=
+lf" rel=3D"nofollow">Halo Reach: Lone Wolf Final Game Objective</a></li>
+<li><a class=3D"external-link" href=3D"https://www.gamesradar.com/halo-reac=
+h-campaign-walkthrough-guide/" rel=3D"nofollow">Halo Reach Guide: Walkthrou=
+gh</a></li>
+<li><iframe class=3D"youtube-player" type=3D"text/html" style=3D"width: 400=
+px; height: 300px" src=3D"//www.youtube.com/embed/SGo1VaUzoeU?wmode=3Dopaqu=
+e" frameborder=3D"0" webkitallowfullscreen mozallowfullscreen allowfullscre=
+en> </iframe> </li>
+</ul></li>
+</ul>
+<ul>
+<li><u>Shadow the Hedgehog: Choices Mechanism</u>
+<ul>
+<li>Level Objectives are determined by which of 2-3 missions a player choos=
+es to accomplish (Multiple Endings)</li>
+<li><a class=3D"external-link" href=3D"http://info.sonicretro.org/Shadow_th=
+e_Hedgehog_(game)" rel=3D"nofollow">Shadow the Hedgehog Game Guide</a></li>
+<li><a class=3D"external-link" href=3D"http://info.sonicretro.org/Space_Gad=
+get" rel=3D"nofollow">Shadow the Hedgehog Space Gadget Choices Examples</a>=
+</li>
+<li>(Dark Route)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp;<iframe class=3D"youtube-player" type=3D"tex=
+t/html" style=3D"width: 400px; height: 300px" src=3D"//www.youtube.com/embe=
+d/wmjZDsY49fk?wmode=3Dopaque" frameborder=3D"0" webkitallowfullscreen mozal=
+lowfullscreen allowfullscreen> </iframe> </li>
+<li>(Normal Route)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp;<iframe class=3D"youtube-player" type=3D"text/html" styl=
+e=3D"width: 400px; height: 300px" src=3D"//www.youtube.com/embed/0DWd8RuKCG=
+k?wmode=3Dopaque" frameborder=3D"0" webkitallowfullscreen mozallowfullscree=
+n allowfullscreen> </iframe> &nbsp;</li>
+<li>(Hero Route)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp;<iframe class=3D"youtube-player" type=3D"tex=
+t/html" style=3D"width: 400px; height: 300px" src=3D"//www.youtube.com/embe=
+d/xltxbNoJJv4?wmode=3Dopaque" frameborder=3D"0" webkitallowfullscreen mozal=
+lowfullscreen allowfullscreen> </iframe> &nbsp;</li>
+</ul></li>
+<li><u>Minecraft Dungeons: Action-Adventure RPG Difficulty Levels Mechanism=
+</u><br>
+<ul>
+<li><a class=3D"external-link" href=3D"https://www.windowscentral.com/minec=
+raft-dungeons" rel=3D"nofollow">Minecraft Dungeons</a> (Would Check out the=
+ Short "Endgame" Section)</li>
+<li><a class=3D"external-link" href=3D"https://www.windowscentral.com/list-=
+minecraft-dungeons-maps-locations-areas-and-dungeons" rel=3D"nofollow">List=
+ of Levels, Secret Locations, Dungeons, and Loot Tables</a></li>
+<li><span class=3D"confluence-embedded-file-wrapper confluence-embedded-man=
+ual-size"><img class=3D"confluence-embedded-image confluence-external-resou=
+rce" alt=3D"Minecraft Dungeons Landscape Camp" height=3D"250" src=3D"https:=
+//www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/fiel=
+d/image/2020/05/minecraft-dungeons-landscape-camp-01.jpg" data-image-src=3D=
+"https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/publ=
+ic/field/image/2020/05/minecraft-dungeons-landscape-camp-01.jpg"></span>&nb=
+sp;<span class=3D"confluence-embedded-file-wrapper confluence-embedded-manu=
+al-size"><img class=3D"confluence-embedded-image confluence-external-resour=
+ce" alt=3D"Minecraft Dungeons Landscape Obsidian Pinnacle" height=3D"250" s=
+rc=3D"https://www.windowscentral.com/sites/wpcentral.com/files/styles/large=
+/public/field/image/2020/05/minecraft-dungeons-landscape-obsidian-pinnacle-=
+01.jpg" data-image-src=3D"https://www.windowscentral.com/sites/wpcentral.co=
+m/files/styles/large/public/field/image/2020/05/minecraft-dungeons-landscap=
+e-obsidian-pinnacle-01.jpg"></span></li>
+</ul></li>
+</ul>
+<p><u><strong>Platforming Dungeon Objectives:</strong></u></p>
+<ul>
+<li>Game Examples:
+<ul>
+<li><a class=3D"external-link" href=3D"http://info.sonicretro.org/Cosmic_Fa=
+ll" rel=3D"nofollow">Shadow the Hedgehog Cosmic Fall Platforming</a></li>
+</ul></li>
+<li>Platforming DO Types:</li>
+</ul>
+<p><u><strong>Combat Dungeon Objectives:</strong></u></p>
+<ul>
+<li>Game Examples:</li>
+<li>Combat DO Types:</li>
+<li><a class=3D"external-link" href=3D"https://www.enworld.org/threads/crea=
+tive-combat-objectives-other-than-kill-em-all.241614/" rel=3D"nofollow">Cre=
+ative Combat Objectives Beyond "Just Killing Them"</a></li>
+<li><a class=3D"external-link" href=3D"https://www.reddit.com/r/DnDBehindTh=
+eScreen/comments/dfkcah/alternate_combat_objectives_varying_up_combat_by/" =
+rel=3D"nofollow">Varying Combat Objectives Again (More for Multiplayer)</a>=
+</li>
+<li><a class=3D"external-link" href=3D"http://www.nerdsourced.com/making-co=
+mbat-interesting-part-1-objectives-terrain-design/" rel=3D"nofollow">Making=
+ Combat Interesting Part 1 (Terrain Design)</a></li>
+<li><a class=3D"external-link" href=3D"https://www.dndbeyond.com/forums/dun=
+geons-dragons-discussion/dungeon-masters-only/15157-making-combat-awesome" =
+rel=3D"nofollow">DnD Strategies for Combat Variety</a></li>
+<li><a class=3D"external-link" href=3D"https://www.reddit.com/r/DnDBehindTh=
+eScreen/comments/dfkcah/alternate_combat_objectives_varying_up_combat_by/" =
+rel=3D"nofollow">Alternate Combat Objectives</a></li>
+<li><a class=3D"external-link" href=3D"https://www.dndbeyond.com/posts/266-=
+alternatives-to-fighting-creative-win-conditions" rel=3D"nofollow">Creative=
+ Win Conditions in DnD</a></li>
+</ul>
+<p><u><strong>Puzzle Dungeon Objectives:</strong></u></p>
+<ul>
+<li>Game Examples:
+<ul>
+<li><em>(Get back to this later)</em></li>
+</ul></li>
+<li>Puzzle DO Types:
+<ul>
+<li><em>(Get back to this later)</em></li>
+</ul></li>
+</ul>
+<p><u><strong>Different Dungeon Types in General:</strong></u></p>
+<ul>
+<li><a class=3D"external-link" href=3D"https://en.wikipedia.org/wiki/Dungeo=
+n_crawl" rel=3D"nofollow">Dungeon Crawl</a></li>
+</ul>
+<p><u><strong>Random:</strong></u></p>
+<ul>
+<li><a class=3D"external-link" href=3D"https://www.researchgate.net/publica=
+tion/309279824_Constructive_generation_methods_for_dungeons_and_levels" rel=
+=3D"nofollow">Dungeon and Level Generation Ideas</a></li>
+<li><a class=3D"external-link" href=3D"https://www.matthewmlanger.com/uploa=
+ds/2/4/3/7/24377510/langer_thesis.pdf" rel=3D"nofollow">Designing a Zelda-S=
+tyled Dungeon</a></li>
+<li><a class=3D"external-link" href=3D"https://www.gamedev.net/forums/topic=
+/688870-dungeon-objectives-in-randomized-rpg/" rel=3D"nofollow">Dungeon Obj=
+ectives in Randomized RPGs</a></li>
+<li><a class=3D"external-link" href=3D"https://www.flutesloot.com/framing-e=
+pic-memorable-boss-fights/" rel=3D"nofollow">How to Plot Epic, Memorable Bo=
+ss Fights</a></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_1640_58933404.1637964568165--

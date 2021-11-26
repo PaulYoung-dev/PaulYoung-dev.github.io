@@ -1,0 +1,276 @@
+Date: Fri, 26 Nov 2021 17:09:09 -0500 (EST)
+Message-ID: <1224637904.1621.1637964549142@studio.eecs.umich.edu>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_1620_1358428496.1637964549142"
+
+------=_Part_1620_1358428496.1637964549142
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Dungeon Objective Cheat Sheet</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Dungeon Objective Cheat Sheet</h1>
+    <div class=3D"Section1">
+        <p><em><strong>Due to Scope Changes there is now only 1 Dungeon Obj=
+ective Design. Go to the "Ultimate Dungeon Objective Design" document in Co=
+nfluence to see the design plan for the Ultimate Dungeon Objective. If furt=
+her scope is needed due to time constraints, the design is crafted in such =
+a way so that even if only part of it is implemented the game will still fe=
+el final.</strong></em></p>
+<p><s><u><strong>1st Dungeon Objective:</strong></u></s></p>
+<p><s>Ultimately the player <u>gets from point A to point B in a linear fas=
+hion</u> (mainly forward, somewhat angling upwards). <strong><em>This is pr=
+imarily a platforming challenge tailored to test the player's platforming s=
+kills</em></strong>. Basically the player must jump from platform to platfo=
+rm across a large chasm; if the player falls, they are returned to the begi=
+nning of the platforming trial instead of full-on dying with a reduction in=
+ health. The platforms are set in a challenging yet do-able arrangement. So=
+me of the platforms move either up, down, left, or right.</s></p>
+<p><br></p>
+<p><s><u><strong>2nd Dungeon Objective:</strong></u></s></p>
+<p><s>Ultimately the player enters through a Greek-looking door, is locked =
+in a classic Greek-style Arena, and must&nbsp;<u>kill anywhere from 20-100 =
+enemies</u>. <strong><em>This is primarily a combat challenge tailored to t=
+est the player's combat skills</em></strong>. There are a couple of platfor=
+ms set in place in a strategic fashion so the player can take cover. There =
+is no other way out than in killing the enemies, the player is locked in th=
+e arena and cannot go out through the door again until the enemies are defe=
+ated. All 3 enemy types (mostly Minotaur and Satyr types) will be involved =
+so player must use multiple combat strategies to kill them all.</s></p>
+<p><br></p>
+<p><s><u><strong>Final Dungeon Objective:</strong></u></s></p>
+<p><s>Ultimately the player scales a tower by jumping on platforms surround=
+ing the exterior of the tower, enters the top room, activates a node, and m=
+ust <u>survive for 5 minutes</u>. <strong><em>This is primarily a challenge=
+ tailored to test the player's combat and platforming skills</em></strong>.=
+ In the tower room there are 5-7 enemy spawn points; there will be 2-3 acti=
+ve at one time, and the spawn points will activate/deactivate every minute =
+or so. The tower room is big enough to have various platforms that can help=
+ the player in dodging, training, and kiting enemies. It will be built in s=
+uch a way so player must switch evasion routes over time through the random=
+ized enemy spawn points.</s></p>
+    </div>
+</body>
+</html>
+------=_Part_1620_1358428496.1637964549142--

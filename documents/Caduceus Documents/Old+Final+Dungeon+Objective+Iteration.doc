@@ -1,0 +1,390 @@
+Date: Fri, 26 Nov 2021 17:07:53 -0500 (EST)
+Message-ID: <237296580.1571.1637964473165@studio.eecs.umich.edu>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_1570_2077022800.1637964473164"
+
+------=_Part_1570_2077022800.1637964473164
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Old Final Dungeon Objective Iteration</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Old Final Dungeon Objective Iteration</h1>
+    <div class=3D"Section1">
+        <ul>
+<li>Feelings of Rooms in Dungeons:
+<ul>
+<li>1st Dungeon
+<ul>
+<li>Player should feel Heroic
+<ul>
+<li>As if they're the boss, in charge, being the good guy</li>
+</ul></li>
+</ul></li>
+<li>2nd Dungeon
+<ul>
+<li>Confusion</li>
+<li>Turned around, things getting more difficult and not even sure if shoul=
+d progress</li>
+</ul></li>
+<li>Final Dungeon
+<ul>
+<li>Overwhelming, overpowers you
+<ul>
+<li>Feels great sense of accomplishment and tragedy/resolution/conclusion
+<ul>
+<li>Still open-ended interpretation for ending</li>
+<li>At least you chose your own future</li>
+<li>Feels like you've finished it
+<ul>
+<li>Now just standing there, confronted with final bits of information, am =
+I the good guy?</li>
+</ul></li>
+</ul></li>
+<li>Now it's up to me kind of thoughts</li>
+</ul></li>
+<li>Boss should be super imposing
+<ul>
+<li>Overwhelming</li>
+</ul></li>
+<li>Dark Souls-y
+<ul>
+<li>Last bit of health/takes everything</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Boss Physics
+<ul>
+<li>Large creature in middle of room
+<ul>
+<li>Platforms around creature</li>
+<li>Bullet-hell</li>
+<li>Whole arena type of attacks</li>
+</ul></li>
+<li>Different levels of cylinder-type stuff as you go up
+<ul>
+<li>Cylinder around boss</li>
+<li>Attacks on multi or singular platform levels</li>
+<li>Not cumulative going up
+<ul>
+<li>Player must use multi-levels of arena (swaths of area)&nbsp;</li>
+</ul></li>
+</ul></li>
+<li>Boss never directly attacks player</li>
+</ul></li>
+<li>Floors have Steampunk/Futuristic aesthetics&nbsp;
+<ul>
+<li>Waiting on specific Boss Design</li>
+</ul></li>
+<li>Aesthetics
+<ul>
+<li>Classic Greek</li>
+<li>Something with the Pillars/Pearly White Marble</li>
+<li>Multi-floored</li>
+<li>Very ethereal and preserved
+<ul>
+<li>Unlike the rest of it!</li>
+</ul></li>
+<li>Maybe something good can come out of storm
+<ul>
+<li>Like resolution</li>
+</ul></li>
+<li>Keep room size/diameter fairly tight
+<ul>
+<li>Almost thinking like in 2 Dimensions
+<ul>
+<li>What directions to go to avoid bullets
+<ul>
+<li>Up, down, around, left, right?</li>
+</ul></li>
+<li>Depth isn't what should be on player's mind</li>
+</ul></li>
+</ul></li>
+<li>More about avoiding boss and pod shots</li>
+<li>Can trigger something (like mini-nodes) across map
+<ul>
+<li>Not total loss of health approach probably</li>
+<li>Maybe a good half/third/quarter of health</li>
+<li>Protect it by making it go out of the player's way to activate</li>
+<li>Or could grab keys/pieces, activate ancient technology</li>
+<li>Weapon of Mass destruction/ancient/future technology
+<ul>
+<li>E.g., Zeus' master-bolt</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+<p><u><strong>New Changes:</strong></u></p>
+<ul>
+<li>Push the 1st Dungeon Objective to the Final Dungeon Objective</li>
+<li>Final Dungeon Objective (Make the Tower Grander)
+<ul>
+<li>Going in and out of tower</li>
+</ul></li>
+<li>2 Arenas for 1st &amp; 2nd Dungeon Objectives
+<ul>
+<li>How to Differentiate?</li>
+<li>Platform Raising-Lowering</li>
+<li>1 Mostly Focused on Combat, 1 Mostly Focused on Platforming
+<ul>
+<li>1st DO: Platforming-heavy (70-80%ish)
+<ul>
+<li>Device system for when player fails at current objective</li>
+<li>Progress isn't totally impeded (forgiving)</li>
+<li>What is the goal of the player and describes the world of that objectiv=
+e (puzzles?)</li>
+</ul></li>
+<li>2nd DO: Combat-heavy (70-80%ish)</li>
+</ul></li>
+</ul></li>
+<li>Make Pitches as <u>Simple</u> as Possible</li>
+<li>Super Easy to Implement, Super Simple
+<ul>
+<li>Pick 3 or 4 mechanisms from list per idea
+<ul>
+<li>Mix up types of mechanisms</li>
+</ul></li>
+</ul></li>
+</ul>
+<p><u><strong>List of Single Mechanisms Player Can Do</strong></u></p>
+<ul>
+<li>Lever that can activate/deactivate with world in on/off fashion</li>
+<li>Enemies (3 Types) that can spawn in over time</li>
+<li>Things We Could Do (Not Implemented Yet)
+<ul>
+<li>Door open close</li>
+<li>Platforms move up and down</li>
+<li>Transporting/teleporting player from one location to another</li>
+</ul></li>
+<li>Can Dash</li>
+<li>Can Double Jump</li>
+<li>Can Melee-to-Air</li>
+<li>Can Shoot Weapon</li>
+<li>Can Shoot Charged Projectile From Weapon</li>
+<li>Keys to activate/unlock&nbsp;</li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_1570_2077022800.1637964473164--

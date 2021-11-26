@@ -1,0 +1,440 @@
+Date: Fri, 26 Nov 2021 17:06:46 -0500 (EST)
+Message-ID: <831517235.1557.1637964406621@studio.eecs.umich.edu>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_1556_1012072650.1637964406620"
+
+------=_Part_1556_1012072650.1637964406620
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>HUD Components</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>HUD Components</h1>
+    <div class=3D"Section1">
+        <p><u><strong>Must-have Mechanics:</strong></u></p>
+<ul>
+<li>Charging meter for ranged projectile weapon
+<ul>
+<li>Don't do anything with cross-hair</li>
+<li>Probably a horizontal bar at the bottom of the screen with some space t=
+hat charges up</li>
+<li>Specific thing: Hold Range weapon projectile longer than maximum charge
+<ul>
+<li>If continue holding down past max
+<ul>
+<li>Kind of like a Halo Plasma Pistol
+<ul>
+<li>Noise conveys zero to maximum charge (gun shaking and red)</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Health Bar
+<ul>
+<li>In Chunks or Singular?</li>
+</ul></li>
+<li>4 total slots for consumables and equipment
+<ul>
+<li>Conveyed as slots that are keybound</li>
+<li>Barebone: 4 Boxes numbers 1, 2, 3, 4</li>
+</ul></li>
+<li>Different looking slots (our icons), which will live in the 4 total slo=
+ts if selected</li>
+<li>Need 3 more slots that hold
+<ul>
+<li>Q</li>
+<li>E</li>
+<li>Shift</li>
+<li><em>Could also include right-mouse button/V (for melee)</em></li>
+</ul></li>
+<li>Some kind of task (Title of Dungeon)
+<ul>
+<li>Xenoblade Chronicles 3D golden arrow?
+<ul>
+<li>No compass arrow, don't want to give player the layout dungeon</li>
+</ul></li>
+<li>Large Icon at Top of Screen
+<ul>
+<li>Front and centered?</li>
+</ul></li>
+</ul></li>
+<li>When you kill something, XP is not a physical thing
+<ul>
+<li>Need something on HUD shows player collected certain amount of XP</li>
+<li>Could be same thing as floating damaged number&nbsp;
+<ul>
+<li><span style=3D"color: rgb(0,128,128);">Challenge: 3 Types of XP</span>
+<ul>
+<li><span style=3D"color: rgb(0,128,128);">All at the same time</span></li>
+<li><span style=3D"color: rgb(0,128,128);">Focus on decluttering</span></li=
+>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Currency (Only 1 Kind)
+<ul>
+<li>Same thing for Currency as XP, need to find way to show player obtained=
+ it</li>
+<li>Could just show it in shop or pause screen</li>
+<li>Whatever the case focus on <u>decluttering</u></li>
+</ul></li>
+<li>When player uses an ability or consumable that has cool-down must show
+<ul>
+<li>Greys then has timer</li>
+<li>Try something unique beyond classic fade-to-full effect</li>
+</ul></li>
+<li>When player gets hurt, an indicator showing which direction took damage=
+ in (like CoD)
+<ul>
+<li>Can make minimalistic if for scope or decluttering</li>
+</ul></li>
+<li>Strength Milestone Skill (Revenge)
+<ul>
+<li>When player takes damage ability charges up</li>
+<li>Can then consume those charges of the ability to release an explosive c=
+harge of damage</li>
+<li>Charge determines damage amount and radius size</li>
+<li>When activates ability makes a sphere/lightning bolt get off the weapon=
+ and sear through/connect to enemies in the radius and deals damage to them=
+</li>
+<li>Specific charge meter for Revenge Skill
+<ul>
+<li>Above ability slot? Does it need to be big? Probably not.</li>
+</ul></li>
+</ul></li>
+<li>Perception Milestone Skill (Clairvoyance)
+<ul>
+<li>Clairvoyance State
+<ul>
+<li>When fully charged have x amount of seconds to slow down charge
+<ul>
+<li>If use partial amount x</li>
+<li>Can charge back up to 6 when&nbsp;</li>
+<li>Mana bar</li>
+</ul></li>
+<li>Also bar above/below ability slot?
+<ul>
+<li>Can learn where to put it through playtesting</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Agility Milestone Skill (Dash)
+<ul>
+<li>Two types of upgrades
+<ul>
+<li>Increase amount of charges for dash (like to 2 or more)
+<ul>
+<li>Need something that conveys this on HUD</li>
+<li>Basically OverWatch</li>
+</ul></li>
+<li>Cooldown meter reduction</li>
+<li>When completely upgraded:
+<ul>
+<li>Cooldown meter reduction maxxed</li>
+<li>Dash amounts
+<ul>
+<li>Must see cooldown meter recharge (2-3 seconds)</li>
+<li>Also must see how close next dash is to being ready</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Glide
+<ul>
+<li>Need a charge meter/reverse charge meter for that
+<ul>
+<li>BoTW?</li>
+<li>Or more traditional bar/reverse-bar?</li>
+<li>Appears only when using glide</li>
+</ul></li>
+</ul></li>
+<li>Some of our Passives will have Internal Cooldowns
+<ul>
+<li>When player takes significant damage OR below 20% health
+<ul>
+<li>Clairvoyance state will activate temporarily
+<ul>
+<li>Can't happen again for another 20 seconds</li>
+</ul></li>
+<li>Need something on HUD to show when cooldown comes off (top-right?)
+<ul>
+<li>Same icon for passive, maybe fades then fills?&nbsp;</li>
+</ul></li>
+<li>To declutter show icon ONLY when proxy/passive is triggered
+<ul>
+<li>Could not hide any of them if they fit screen</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+<p><br></p>
+<p><u><strong>Skill Trees In Relation to HUD (Missing Info):</strong></u></=
+p>
+<ul>
+<li>Need 3 Experience Bars/Shapes</li>
+<li>When open skill tree, should see amount of XP you have in each tree
+<ul>
+<li>Have to show this with HUD somehow</li>
+</ul></li>
+<li>XP Graphics
+<ul>
+<li>Can just be numbers</li>
+</ul></li>
+<li>With HUD, want numbers popping up when player acquires them
+<ul>
+<li>Skill Trees to show Total XP obtained</li>
+</ul></li>
+<li>Eventually want tutorial windows when player hovers over a passive
+<ul>
+<li>We'll decide this later</li>
+<li>Don't need but super nice to have</li>
+</ul></li>
+</ul>
+<p><br></p>
+<p><u><strong>What and How to Fit All UI Information On Screen:</strong></u=
+></p>
+<ul>
+<li>Charging meter for ranged projectile weapon</li>
+<li>Health Bar</li>
+<li>4 total slots for consumables and equipment</li>
+<li>Need 3 more slots that hold Q, E, and Shift (<em>Could also include rig=
+ht-mouse button/V (for melee)</em></li>
+<li>Large Icon at Top of Screen (Dungeon Task/Number?)</li>
+<li>3 Types of XP (Problem is Simultaneity)</li>
+<li>Currency (Only 1 Kind, Keep in Mind with XP)</li>
+<li>When player uses an ability or consumable that has cool-down must show<=
+/li>
+<li>When player gets hurt, an indicator showing which direction took damage=
+ in (like CoD)</li>
+<li>Milestone Skills</li>
+<li>Strength Milestone Skill (Revenge)</li>
+<li>Perception Milestone Skill (Clairvoyance)</li>
+<li>Agility Milestone Skill (Dash)</li>
+<li>Glide (Meter)</li>
+<li>Some of our Passives will have Internal Cooldowns</li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_1556_1012072650.1637964406620--

@@ -1,0 +1,598 @@
+Date: Fri, 26 Nov 2021 17:07:44 -0500 (EST)
+Message-ID: <1490813918.1569.1637964464227@studio.eecs.umich.edu>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_1568_1869261258.1637964464226"
+
+------=_Part_1568_1869261258.1637964464226
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Old 2nd Dungeon Objective Iteration</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Old 2nd Dungeon Objective Iteration</h1>
+    <div class=3D"Section1">
+        <p style=3D""><u><strong>*</strong><em>Document is mostly finished =
+in design, will add pictures and small edits soon,<span>&nbsp;</span><span =
+style=3D"color: rgb(153,51,102);">currently it's ready to use as concept, a=
+sk Paul Young if you have any questions about this document</span></em><str=
+ong>*</strong></u></p>
+<p style=3D""><em>VOCABULARY LEGEND:</em></p>
+<ul style=3D"">
+<li><span style=3D"color: rgb(255,0,0);">Red =3D Milestone Skill</span></li=
+>
+<li><span style=3D"color: rgb(0,128,0);">Green =3D Dungeon Name</span></li>
+<li><span style=3D"color: rgb(0,0,255);">Blue =3D Dungeon Structure</span><=
+/li>
+<li><span style=3D"color: rgb(255,102,0);">Orange =3D Item/Mechanic Name or=
+ Action</span></li>
+<li><span style=3D"color: rgb(255,0,255);">Pink =3D Aesthetic/Narrative Ele=
+ment</span></li>
+</ul>
+<p style=3D""><u><strong>2nd Dungeon Objective Blueprint:</strong></u></p>
+<ul style=3D"">
+<li><span style=3D"color: rgb(128,0,0);">After the player collects all the =
+required<span>&nbsp;</span><span style=3D"color: rgb(0,0,255);">node</span>=
+<span>&nbsp;</span><span style=3D"color: rgb(255,102,0);">puzzle pieces</sp=
+an><span>&nbsp;</span>throughout the<span>&nbsp;</span><span style=3D"color=
+: rgb(0,128,0);">2nd Dungeon</span>, the player can go through the<span>&nb=
+sp;</span><span style=3D"color: rgb(0,0,255);">Dungeon Objective door</span=
+></span></li>
+<li><span style=3D"color: rgb(128,0,0);">Player enters a<span>&nbsp;</span>=
+<span style=3D"color: rgb(0,0,255);">big room</span>, which is the<span>&nb=
+sp;</span><span style=3D"color: rgb(255,102,0);">biggest room of the dungeo=
+n</span><span>&nbsp;</span>with a<span>&nbsp;</span><span style=3D"color: r=
+gb(255,0,255);">deep background depicting a large expanse with clouds and s=
+ky</span></span></li>
+<li><span style=3D"color: rgb(128,0,0);">The door closes on the player, so =
+no returning back to the main dungeon portion</span></li>
+<li><span style=3D"color: rgb(128,0,0);">The player advances along a wide a=
+nd straight path towards a<span>&nbsp;</span><span style=3D"color: rgb(0,0,=
+255);">tall spire/tower coursing with electricity (taller than 1st Dungeon =
+Objective Tower)</span></span></li>
+<li><span style=3D"color: rgb(128,0,0);">The player<span>&nbsp;</span><span=
+ style=3D"color: rgb(255,102,0);">jumps towards the top</span>, hopping on =
+one<span>&nbsp;</span><span style=3D"color: rgb(255,102,0);">cloud/platform=
+</span><span>&nbsp;</span>at a time</span></li>
+<li><span style=3D"color: rgb(128,0,0);">Each time the player hops off of o=
+ne<span>&nbsp;</span><span style=3D"color: rgb(255,102,0);">cloud</span>, t=
+he<span>&nbsp;</span><span style=3D"color: rgb(255,102,0);">cloud</span><sp=
+an>&nbsp;</span>disappears; also, if the player stays on a<span>&nbsp;</spa=
+n><span style=3D"color: rgb(255,102,0);">cloud for too long, it disappears<=
+/span></span></li>
+<li><span style=3D"color: rgb(128,0,0);">Upon reaching the<span>&nbsp;</spa=
+n><span style=3D"color: rgb(0,0,255);">summit/entrance to Tower top</span>,=
+ the player enters<span>&nbsp;</span><span style=3D"color: rgb(0,0,255);">a=
+ room</span><span>&nbsp;</span>and either<span>&nbsp;</span><span style=3D"=
+color: rgb(255,102,0);">puts together puzzle pieces</span><span>&nbsp;</spa=
+n>or<span>&nbsp;</span><span style=3D"color: rgb(255,102,0);">hits a button=
+ on the pedestal in the middle of the room</span></span></li>
+<li><span style=3D"color: rgb(128,0,0);">Upon<span>&nbsp;</span><span style=
+=3D"color: rgb(255,102,0);">triggering the button/puzzle</span>, the<span>&=
+nbsp;</span><span style=3D"color: rgb(0,0,255);">cloud node</span><span>&nb=
+sp;</span>starts operating again, which starts locking away Typhon's essenc=
+e, causing him to bellow</span></li>
+<li><span style=3D"color: rgb(128,0,0);">After this screech of pure chaos, =
+it<span>&nbsp;</span><span style=3D"color: rgb(255,102,0);">alerts enemies<=
+/span><span>&nbsp;</span><span style=3D"color: rgb(255,102,0);">to try to t=
+urn it off</span><span>&nbsp;</span>before Typhon's presence is completely =
+removed from the node</span></li>
+<li><s><span style=3D"color: rgb(128,0,0);">Player must<span>&nbsp;</span><=
+span style=3D"color: rgb(255,102,0);">defend against enemies</span><span>&n=
+bsp;</span>for<span>&nbsp;</span><span style=3D"color: rgb(255,102,0);">two=
+ minutes</span><span>&nbsp;</span>using<span>&nbsp;</span><span style=3D"co=
+lor: rgb(255,102,0);">dash</span><span>&nbsp;</span>and<span>&nbsp;</span><=
+span style=3D"color: rgb(255,102,0);">melee-to-air to fend them off</span><=
+/span></s></li>
+<li><s><span style=3D"color: rgb(128,0,0);">Enemies are set up in such a wa=
+y so player can<span>&nbsp;</span><span style=3D"color: rgb(255,102,0);">qu=
+ickly combine dash and melee-to-air mechanics to combo</span><span>&nbsp;</=
+span>them repeatedly</span></s></li>
+<li><span style=3D"color: rgb(128,0,0);">Swarms of enemies come by,<span>&n=
+bsp;</span><span style=3D"color: rgb(255,0,255);">Hermes realizes time is r=
+unning out</span>, this time<span>&nbsp;</span><span style=3D"color: rgb(25=
+5,102,0);">must defend area for one minute</span><span>&nbsp;</span>then<sp=
+an>&nbsp;</span><span style=3D"color: rgb(255,102,0);">escape to beginning =
+of</span><span>&nbsp;</span>Final Dungeon<span>&nbsp;</span><span style=3D"=
+color: rgb(255,102,0);">within one minute</span>.</span></li>
+<li><span style=3D"color: rgb(128,0,0);">After this<span>&nbsp;</span><span=
+ style=3D"color: rgb(255,0,255);">Typhon's essence is gone</span>, througho=
+ut<span>&nbsp;</span><span style=3D"color: rgb(0,128,0);">2nd Dungeon Objec=
+tive</span><span>&nbsp;</span>player<span>&nbsp;</span><span style=3D"color=
+: rgb(128,0,128);">n<span style=3D"color: rgb(153,51,102);">ow<span>&nbsp;<=
+/span><span style=3D"color: rgb(255,0,255);">thinks Zeus is not such a good=
+ guy (whether he is or isn't)</span></span></span><span>&nbsp;</span>and en=
+ters the fog that starts the<span>&nbsp;</span><span style=3D"color: rgb(0,=
+128,0);">Final Dungeon</span></span></li>
+</ul>
+<p style=3D""><u><strong>2nd Dungeon Objective Differences from the 1st Dun=
+geon Objective:</strong></u></p>
+<ul style=3D"">
+<li>Slightly<span>&nbsp;</span><u>taller than</u><span>&nbsp;</span>the<spa=
+n>&nbsp;</span><span style=3D"color: rgb(0,128,0);">1st Dungeon Objective T=
+ower</span></li>
+<li>Has<span>&nbsp;</span><span style=3D"color: rgb(255,0,0);">Milestone Sk=
+ill Shortcuts</span><span>&nbsp;</span>to Climb Tower</li>
+<li>Has<span>&nbsp;</span><span style=3D"color: rgb(255,0,0);">Milestone Sk=
+ill Advantages</span><span>&nbsp;</span>Inside Tower Room at the Top</li>
+<li><span style=3D"color: rgb(255,102,0);">Fog Impacts HUD</span>
+<ul>
+<li><span style=3D"color: rgb(255,0,255);">Typhoon Areole more aggressive</=
+span><span>&nbsp;</span>in this Dungeon Objective,<span>&nbsp;</span><span =
+style=3D"color: rgb(255,102,0);">cloud's player's vision</span><span>&nbsp;=
+</span>with a<span>&nbsp;</span><span style=3D"color: rgb(255,102,0);">haze=
+</span>
+<ul>
+<li>Starts near the top of the<span style=3D"color: rgb(0,0,255);"><span>&n=
+bsp;</span>tower</span><span>&nbsp;</span>player is climbing
+<ul>
+<li>Specifically<span>&nbsp;</span><span style=3D"color: rgb(255,102,0);">f=
+og begins at the exact place</span><span>&nbsp;</span>where the<span>&nbsp;=
+</span><span style=3D"color: rgb(0,0,255);">tower</span><span>&nbsp;</span>=
+<span style=3D"color: rgb(255,0,255);">is taller</span><span>&nbsp;</span>t=
+han the<span>&nbsp;</span><span style=3D"color: rgb(0,128,0);">1st Dungeon =
+Objective Tower</span></li>
+</ul></li>
+<li><span style=3D"color: rgb(255,102,0);">Accumulates in thickness</span><=
+span>&nbsp;</span>as player<span>&nbsp;</span><span style=3D"color: rgb(255=
+,102,0);">gets closer</span><span>&nbsp;</span>to<span>&nbsp;</span><span s=
+tyle=3D"color: rgb(0,0,255);">tower room at the top</span></li>
+<li><span style=3D"color: rgb(0,0,255);">Tower room</span><span>&nbsp;</spa=
+n>is tough to<span>&nbsp;</span><span style=3D"color: rgb(255,102,0);">see =
+far</span><span>&nbsp;</span>in</li>
+</ul></li>
+</ul></li>
+<li>Defense Action (1 Minute)
+<ul>
+<li>Player uses<span>&nbsp;</span><span style=3D"color: rgb(0,0,255);">piec=
+es/shards</span><span>&nbsp;</span>gathered from the<span>&nbsp;</span><spa=
+n style=3D"color: rgb(0,128,0);">2nd Dungeon</span><span>&nbsp;</span>earli=
+er to activate a pedestal in the middle of the room</li>
+<li>The room has<span>&nbsp;</span><span style=3D"color: rgb(0,0,255);">a b=
+unch of fog<span>&nbsp;</span><span style=3D"color: rgb(255,0,255);">(Typho=
+eus essence)</span></span>, which is overwhelming yet somewhat weakens as t=
+ime progresses</li>
+</ul></li>
+<li>Final Action (1 Minute)
+<ul>
+<li>Instead of being able to defend room for another minute,<span>&nbsp;</s=
+pan><span style=3D"color: rgb(255,0,255);">player must retreat</span><span>=
+&nbsp;</span>(using either a<span>&nbsp;</span><span style=3D"color: rgb(25=
+5,0,0);">Milestone Skill</span><span>&nbsp;</span>or through<span>&nbsp;</s=
+pan><span style=3D"color: rgb(255,102,0);">pummeling their way through enem=
+ies</span>) within<span>&nbsp;</span><span style=3D"color: rgb(255,102,0);"=
+>one minute or lose&nbsp;<span style=3D"color: rgb(255,0,255);">(despite th=
+e enemies potentially guarding the node for good, now it's inaccessible, le=
+aving only way to fix this by releasing Zeus to take on the weakened Typhoe=
+us)</span></span>
+<ul>
+<li><span style=3D"color: rgb(255,0,255);">Narratively could be where Typho=
+n is completely eliminated/rain flows again if player activates second node=
+ permanently like how the first node is activated permanently</span></li>
+<li><span style=3D"color: rgb(255,0,255);">However, due to sheer number of =
+enemies AND/OR limited time before Zeus is completely destroyed (while play=
+er has reservations of Zeus, still thinks should hear him out) player&nbsp;=
+</span></li>
+</ul></li>
+<li>If using a<span>&nbsp;</span><span style=3D"color: rgb(255,0,0);">Miles=
+tone Skill</span><span>&nbsp;</span>to somehow escape
+<ul>
+<li>Use<span>&nbsp;</span><span style=3D"color: rgb(255,0,0);">Revenge</spa=
+n><span>&nbsp;</span>to break through something OR jump really high and far
+<ul>
+<li>To beginning of<span>&nbsp;</span><span style=3D"color: rgb(0,128,0);">=
+Final Dungeon</span>, player has to aim jump correctly<span>&nbsp;</span><u=
+><span style=3D"color: rgb(255,102,0);">falling</span>&nbsp;onto a teleport=
+er below</u>
+<ul>
+<li><span style=3D"color: rgb(0,0,255);">Teleporter</span><span>&nbsp;</spa=
+n>boosts player up really, really high
+<ul>
+<li>To beginning of<span>&nbsp;</span><span style=3D"color: rgb(0,128,0);">=
+Final Dungeon</span></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Use<span>&nbsp;</span><span style=3D"color: rgb(255,0,0);">Clairvoyance=
+</span><span>&nbsp;</span>to<span>&nbsp;</span><span style=3D"color: rgb(25=
+5,102,0);">sneak through enemies</span><span>&nbsp;</span>and<span>&nbsp;</=
+span><span style=3D"color: rgb(255,102,0);">take stair ramp</span><span>&nb=
+sp;</span>to the<span>&nbsp;</span><span style=3D"color: rgb(0,128,0);">Fin=
+al Dungeon</span>
+<ul>
+<li>To beginning of<span>&nbsp;</span><span style=3D"color: rgb(0,128,0);">=
+Final Dungeon</span>, player<span>&nbsp;</span><span style=3D"color: rgb(25=
+5,102,0);">must not take damage</span><span>&nbsp;</span>and take stairs<sp=
+an>&nbsp;</span><u>upwards to<span>&nbsp;</span><span style=3D"color: rgb(0=
+,128,0);">Final Dungeon</span></u>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">If player takes damage in<span>&nbsp=
+;</span><span style=3D"color: rgb(255,0,0);">Clairvoyance</span>, enemies s=
+warm</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Implement if this is possible</span>=
+</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Use<span>&nbsp;</span><span style=3D"color: rgb(255,0,0);">Glide</span>=
+<span>&nbsp;</span>to soar off of top of tower
+<ul>
+<li>To beginning of<span>&nbsp;</span><span style=3D"color: rgb(0,128,0);">=
+Final Dungeon</span>, player has to aim jump correctly<span>&nbsp;</span><u=
+><span style=3D"color: rgb(255,102,0);">gliding</span><span>&nbsp;</span>on=
+to a teleporter below</u>
+<ul>
+<li>Teleporter boosts player up really, really high
+<ul>
+<li>To beginning of Final Dungeon</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Ultimately player<span style=3D"color: rgb(255,102,0);"><span>&nbsp;</s=
+pan>jumps off the top</span><span>&nbsp;</span>of<span>&nbsp;</span><span s=
+tyle=3D"color: rgb(0,0,255);">the tower</span><span>&nbsp;</span>OR takes s=
+tair ramp angled upwards (if used<span>&nbsp;</span><span style=3D"color: r=
+gb(255,0,0);">Clairvoyance</span><span>&nbsp;</span>or fought through enemi=
+es) to the beginning of the<span>&nbsp;</span><span style=3D"color: rgb(0,1=
+28,0);">Final Dungeon</span>
+<ul>
+<li>Upper area could be<span>&nbsp;</span><span style=3D"color: rgb(255,102=
+,0);">blocked off by clouds</span><span>&nbsp;</span>so player<span>&nbsp;<=
+/span><span style=3D"color: rgb(255,102,0);">can't see beginning</span><spa=
+n>&nbsp;</span>of<span>&nbsp;</span><span style=3D"color: rgb(0,128,0);">Fi=
+nal Dungeon</span></li>
+<li>Destination is beginning of<span>&nbsp;</span><span style=3D"color: rgb=
+(0,128,0);">Final Dungeon</span>, could have<span>&nbsp;</span><span style=
+=3D"color: rgb(255,102,0);">load screen</span><span>&nbsp;</span>in between=
+</li>
+</ul></li>
+</ul></li>
+<li>Gears
+<ul>
+<li>Ideas of<span>&nbsp;</span><span style=3D"color: rgb(255,102,0);">Gear-=
+turning</span><span>&nbsp;</span>platforms
+<ul>
+<li>Becomes a<span>&nbsp;</span><span style=3D"color: rgb(255,102,0);">chal=
+lenge</span><span>&nbsp;</span>on top of<span>&nbsp;</span><span style=3D"c=
+olor: rgb(255,102,0);">getting shot at by enemies</span><span>&nbsp;</span>=
+from<span>&nbsp;</span><span style=3D"color: rgb(0,0,255);">tower windows</=
+span></li>
+<li>Swivel in motion kind of like how<span>&nbsp;</span><span style=3D"colo=
+r: rgb(0,0,255);">clouds</span><span>&nbsp;</span>would move
+<ul>
+<li><span style=3D"color: rgb(255,102,0);">Random movements</span><span>&nb=
+sp;</span>would be<span>&nbsp;</span><u>really cool</u></li>
+<li>If limited by Scope, then configured/<span style=3D"color: rgb(255,102,=
+0);">fixed movement patterns</span>&nbsp;of<span>&nbsp;</span><span style=
+=3D"color: rgb(255,102,0);">platforms</span>/<span style=3D"color: rgb(0,0,=
+255);">clouds<span style=3D"color: rgb(0,0,0);"><span>&nbsp;</span>still ad=
+ds complexity/depth</span></span></li>
+</ul></li>
+<li><span style=3D"color: rgb(255,0,255);">Could have thin lines tied to to=
+wer, where each cloud has a spinning gear in the center of it</span>
+<ul>
+<li><span style=3D"color: rgb(255,0,255);">Gears or wind could show how clo=
+uds move</span></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+<p style=3D""><span style=3D"color: rgb(0,0,0);"><u><strong>2nd Dungeon Obj=
+ective Player Experience/How It Should Feel:</strong></u></span></p>
+<ul style=3D"">
+<li><span style=3D"color: rgb(0,128,0);">1st Dungeon Objective:</span><span=
+>&nbsp;</span><span style=3D"color: rgb(255,0,255);">Kicking A and Taking N=
+ames</span>
+<ul>
+<li>See<span>&nbsp;</span><span style=3D"color: rgb(0,128,0);">1st Dungeon =
+Objective</span><span>&nbsp;</span>document
+<ul>
+<li>Will be added shortly</li>
+</ul></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,128,0);">2nd Dungeon Objective:</span><span=
+>&nbsp;</span><span style=3D"color: rgb(255,0,255);">Raw Confusion and Desp=
+eration</span>
+<ul>
+<li>Even before player enters<span>&nbsp;</span><span style=3D"color: rgb(0=
+,128,0);">2nd Dungeon Objective</span>,<span>&nbsp;</span><span style=3D"co=
+lor: rgb(255,0,255);">questioning motives</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Something happens<span>&nbsp;</span>=
+<span style=3D"color: rgb(255,0,255);">narratively</span>, so player has<sp=
+an>&nbsp;</span><span style=3D"color: rgb(255,0,255);">confusing thought/re=
+alization</span><span>&nbsp;</span>right before<span>&nbsp;</span><span sty=
+le=3D"color: rgb(0,0,255);">the fog</span><span>&nbsp;</span><span style=3D=
+"color: rgb(255,102,0);">permeating towards</span><span>&nbsp;</span>the pl=
+ayer from the<span>&nbsp;</span><span style=3D"color: rgb(0,0,255);">tower =
+top</span></span></li>
+<li><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(255,0,255)=
+;">Confused</span><span>&nbsp;</span>in<span>&nbsp;</span><span style=3D"co=
+lor: rgb(255,102,0);">trying to find pedestal</span><span>&nbsp;</span>in<s=
+pan>&nbsp;</span><span style=3D"color: rgb(0,0,255);">middle of room</span>=
+,<span>&nbsp;</span><span style=3D"color: rgb(0,0,255);">thick fog layer</s=
+pan><span>&nbsp;</span><span style=3D"color: rgb(255,102,0);">distorting pl=
+ayer's vision</span></span></li>
+<li><span style=3D"color: rgb(0,0,0);">Immediately after activating<span>&n=
+bsp;</span><span style=3D"color: rgb(0,0,255);">node</span>, fog starts to =
+lessen in thickness</span></li>
+<li><span style=3D"color: rgb(0,0,0);">However,<span>&nbsp;</span><span sty=
+le=3D"color: rgb(255,102,0);">enemies increase in thickness</span><span>&nb=
+sp;</span>as they<span>&nbsp;</span><span style=3D"color: rgb(255,102,0);">=
+enter from below</span><span>&nbsp;</span>the tower and<span>&nbsp;</span><=
+span style=3D"color: rgb(255,102,0);">from the staircase</span><span>&nbsp;=
+</span><span style=3D"color: rgb(0,0,255);">connecting the top of the</span=
+><span>&nbsp;</span><span style=3D"color: rgb(0,128,0);">2nd Dungeon Object=
+ive</span><span>&nbsp;</span><span style=3D"color: rgb(0,0,255);">tower</sp=
+an><span>&nbsp;</span>to the beginning of the<span>&nbsp;</span><span style=
+=3D"color: rgb(0,128,0);">Final Dungeon Objective</span><span>&nbsp;</span>=
+a bit past the tower and above</span></li>
+<li><span style=3D"color: rgb(0,0,0);">After<span>&nbsp;</span><span style=
+=3D"color: rgb(255,102,0);">defending for one minute</span>, player has<spa=
+n>&nbsp;</span><span style=3D"color: rgb(255,0,255);">thought/revelation</s=
+pan><span>&nbsp;</span>that makes the player realize there is<span>&nbsp;</=
+span><span style=3D"color: rgb(255,102,0);">only one minute left</span><spa=
+n>&nbsp;</span>(maybe 2nd Dungeon explodes?)</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Because of this player must make it =
+to a small platform that is<span>&nbsp;</span><span style=3D"color: rgb(255=
+,102,0);">connected to</span><span>&nbsp;</span>the beginning of the Final =
+Dungeon</span></li>
+<li><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(255,102,0)=
+;">Small platform</span><span>&nbsp;</span>is connected to<span>&nbsp;</spa=
+n><span style=3D"color: rgb(0,128,0);">beginning of</span><span>&nbsp;</spa=
+n><span style=3D"color: rgb(0,128,0);">Final Dungeon</span>,<span>&nbsp;</s=
+pan><span style=3D"color: rgb(255,102,0);">separated by a<span>&nbsp;</span=
+><span style=3D"color: rgb(0,0,255);">special fog layer</span></span></span=
+></li>
+<li><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(255,102,0)=
+;">Load screen</span><span>&nbsp;</span>pops up when player touches<span>&n=
+bsp;</span><span style=3D"color: rgb(0,0,255);">special fog layer</span></s=
+pan></li>
+<li><span style=3D"color: rgb(0,0,0);">If player doesn't touch<span>&nbsp;<=
+/span><span style=3D"color: rgb(0,0,255);">special fog layer</span><span>&n=
+bsp;</span>in<span>&nbsp;</span><span style=3D"color: rgb(255,102,0);">one =
+minute</span><span>&nbsp;</span>then player<span>&nbsp;</span><span style=
+=3D"color: rgb(255,102,0);">must restart from</span><span>&nbsp;</span><spa=
+n style=3D"color: rgb(0,0,255);">top of tower</span><span>&nbsp;</span>(mus=
+t<span>&nbsp;</span><span style=3D"color: rgb(255,102,0);">reactivate</span=
+><span>&nbsp;</span><span style=3D"color: rgb(0,0,255);">node</span><span>&=
+nbsp;</span>also)</span></li>
+</ul></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,128,0);">Final Dungeon Objective:</span><sp=
+an>&nbsp;</span><span style=3D"color: rgb(255,0,255);">Overwhelming and Epi=
+c (Underdog Fight and a Momentous Decision Vibe)</span>
+<ul>
+<li>See<span>&nbsp;</span><span style=3D"color: rgb(0,128,0);">Final Dungeo=
+n Objective</span><span>&nbsp;</span>document
+<ul>
+<li>Will be added shortly</li>
+</ul></li>
+</ul></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_1568_1869261258.1637964464226--

@@ -1,0 +1,554 @@
+Date: Fri, 26 Nov 2021 17:08:01 -0500 (EST)
+Message-ID: <664920780.1573.1637964481548@studio.eecs.umich.edu>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_1572_1392541952.1637964481547"
+
+------=_Part_1572_1392541952.1637964481547
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Revamped 1st Dungeon Objective Design</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Revamped 1st Dungeon Objective Design</h1>
+    <div class=3D"Section1">
+        <p><em>*This is the documentation for the new 1st Dungeon Objective=
+, we will be using this one for the game*</em></p>
+<p><em>VOCABULARY LEGEND:</em></p>
+<ul>
+<li><span style=3D"color: rgb(255,0,0);">Red =3D Milestone Skill</span></li=
+>
+<li><span style=3D"color: rgb(0,128,0);">Green =3D Dungeon Name</span></li>
+<li><span style=3D"color: rgb(0,0,255);">Blue =3D Dungeon Structure</span><=
+/li>
+<li><span style=3D"color: rgb(255,102,0);">Orange =3D Item/Mechanic Name or=
+ Action</span></li>
+<li><span style=3D"color: rgb(255,204,0);">Gold =3D Aesthetic/Narrative Ele=
+ment</span></li>
+</ul>
+<p><u><strong>First Dungeon Objective New Blueprint:</strong></u></p>
+<ul>
+<li><span style=3D"color: rgb(128,0,0);">Ultimately this DO is a <u>Platfor=
+ming Challenge</u></span></li>
+<li><span style=3D"color: rgb(128,0,0);">Ultimately this DO tests the playe=
+r's platforming intelligence, which is excellent prep for the Final DO Towe=
+r Objective.</span></li>
+<li><span style=3D"color: rgb(128,0,0);">Player enters through classic Dung=
+eon door (can't go back through door)</span></li>
+<li><u><span style=3D"color: rgb(128,0,0);">Still in Progress, Should Pick =
+an Idea/Concept to Run With Before Writing Instructions</span></u></li>
+</ul>
+<p><u><strong><span style=3D"color: rgb(0,0,0);">How the Player Should Feel=
+ in this Dungeon Objective:</span></strong></u></p>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Dominant (Kicking A** and Taking Nam=
+es Type of Attitude) to a Bit Unconfident Yet Nonetheless Feeling Capable o=
+f Anything</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Make the 1st DO&nbsp;<u>CHALLENGING!=
+!! (Still do-able in the first try)</u></span></li>
+<li><span style=3D"color: rgb(0,0,0);">Feel like your gaining power</span><=
+/li>
+<li><span style=3D"color: rgb(0,0,0);">Dungeon Objective should give player=
+ "Run for their $", no matter how powerful they get</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Ways to make it</span></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);">Particularly challenged/pressed a bi=
+t with the platforms</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Rushed (Time Limit)</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Example Music:</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Already used earlier, but Sonic 06 M=
+ain Theme (Not too Sad a Theme for this kind of feel)</span></li>
+<li><span style=3D"color: rgb(0,0,0);"><iframe class=3D"youtube-player" typ=
+e=3D"text/html" style=3D"width: 400px; height: 300px" src=3D"//www.youtube.=
+com/embed/BWWfjK0v8eM?wmode=3Dopaque" frameborder=3D"0" webkitallowfullscre=
+en mozallowfullscreen allowfullscreen> </iframe> &nbsp;(Sonic 06 Main Theme=
+, OST)</span></li>
+<li><span style=3D"color: rgb(0,0,0);"><iframe class=3D"youtube-player" typ=
+e=3D"text/html" style=3D"width: 400px; height: 300px" src=3D"//www.youtube.=
+com/embed/9jfqY9pk6wY?wmode=3Dopaque" frameborder=3D"0" webkitallowfullscre=
+en mozallowfullscreen allowfullscreen> </iframe> &nbsp;(FE Three Houses: Go=
+d-Shattering Star, Piano Cover)</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Part where this FE video is at about=
+ 3:00 would be really cool to implement somehow, especially that bass part =
+with the melody part holding its punches for the end of the song)</span></l=
+i>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);"><iframe class=3D"youtube-player" typ=
+e=3D"text/html" style=3D"width: 400px; height: 300px" src=3D"//www.youtube.=
+com/embed/jRESgqJIsoo?wmode=3Dopaque" frameborder=3D"0" webkitallowfullscre=
+en mozallowfullscreen allowfullscreen> </iframe> &nbsp;(Sonic Adventure 2: =
+Live and Learn, OST)</span></li>
+<li><span style=3D"color: rgb(0,0,0);"><iframe class=3D"youtube-player" typ=
+e=3D"text/html" style=3D"width: 400px; height: 300px" src=3D"//www.youtube.=
+com/embed/XpWyn_RohVE?wmode=3Dopaque" frameborder=3D"0" webkitallowfullscre=
+en mozallowfullscreen allowfullscreen> </iframe> &nbsp;(Lost Planet 2: Welc=
+ome to the Jungle, Boys!, OST)</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Should have a bit of an explorative =
+nature to it also</span></li>
+</ul></li>
+</ul></li>
+</ul>
+<p><u><strong><span style=3D"color: rgb(0,0,0);">First Dungeon Objective Pi=
+tch Ideas:</span></strong></u></p>
+<ul>
+<li><u><span style=3D"color: rgb(0,0,0);">Target Practice</span></u>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Player has to hit moving targets qui=
+ckly</span></li>
+<li><span style=3D"color: rgb(0,0,0);">x amount of targets in y seconds</sp=
+an></li>
+<li><span style=3D"color: rgb(0,0,0);">Player enters room and sees a lever =
+in the center of it</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">When the lever is pushed, targets po=
+p out of the walls rapidly</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Targets flip around (e.g., 180 degre=
+e flip has target pop up, then after a second target does a 180 flip again =
+to return back to the original non-target wall side player originally saw)<=
+/span></li>
+</ul></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);">Pros:</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Very Different than One Would Expect=
+</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Could use in <u>Training Hub!</u></s=
+pan></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);">Cons:</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Very Different than One Would Expect=
+</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Might not Even Be Worth Being a Dung=
+eon Objective</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Not grand enough</span></li>
+</ul></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);">Likelihood to Implement: Probs not (=
+0-10%)</span></li>
+</ul></li>
+<li><u><span style=3D"color: rgb(0,0,0);">Jump Across Difficult Canyon to G=
+et to Other Side</span></u>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Player could enter area where it's a=
+ huge canyon/chasm</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Goal is to <span style=3D"color: rgb=
+(255,102,0);">get to the other side</span></span></li>
+<li><span style=3D"color: rgb(0,0,0);">Platforms are <span style=3D"color: =
+rgb(255,102,0);">moving precariously</span></span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Up, down, left, right</span></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);">Example: ClusterTruck (1st Minute of=
+ Video Shows how Features such as Slow-Down Time could work)</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);"><iframe class=3D"youtube-player" typ=
+e=3D"text/html" style=3D"width: 400px; height: 300px" src=3D"//www.youtube.=
+com/embed/VesKV9_yDUc?wmode=3Dopaque" frameborder=3D"0" webkitallowfullscre=
+en mozallowfullscreen allowfullscreen> </iframe> </span></li>
+</ul></li>
+<li>Two ways to implement:
+<ul>
+<li>Platforms <span style=3D"color: rgb(255,102,0);">lead towards goal</spa=
+n> like in ClusterTruck (player could strategically wait)</li>
+<li>Platforms are <span style=3D"color: rgb(255,102,0);">stationary</span>,=
+ player must find a way to goal purely through <span style=3D"color: rgb(25=
+5,102,0);">player movement<span style=3D"color: rgb(0,0,0);"> (player could=
+ feel relieved for making it to other side), platforms move from point A - =
+Point B--either up, down, left, or right</span></span>
+<ul>
+<li>Linear challenge&nbsp;</li>
+<li><span style=3D"color: rgb(255,102,0);"><span style=3D"color: rgb(0,0,0)=
+;">More ideal</span></span></li>
+<li><span style=3D"color: rgb(255,102,0);"><span style=3D"color: rgb(0,0,0)=
+;">Always a chance player could do something not platforming-oriented (bein=
+g able to choose a super simple path)</span></span>
+<ul>
+<li><span style=3D"color: rgb(255,102,0);"><span style=3D"color: rgb(0,0,0)=
+;">Going forward instead of up</span></span></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><span style=3D"color: rgb(255,102,0);"><span style=3D"color: rgb(0,0,0)=
+;">Has enemies shooting at player from platforms afar</span></span>
+<ul>
+<li><span style=3D"color: rgb(255,102,0);"><span style=3D"color: rgb(0,0,0)=
+;">Too far for player to reach</span></span></li>
+<li><span style=3D"color: rgb(255,102,0);"><span style=3D"color: rgb(0,0,0)=
+;">If there's a time limit probably in player's best interest to not fire b=
+ack but to instead keep trekking onwards</span></span></li>
+</ul></li>
+<li><span style=3D"color: rgb(255,102,0);"><span style=3D"color: rgb(0,0,0)=
+;">Elevator system</span></span>
+<ul>
+<li><span style=3D"color: rgb(255,102,0);"><span style=3D"color: rgb(0,0,0)=
+;">Could also use an elevator-style approach where progression in DO keeps =
+going physically upwards</span></span></li>
+</ul></li>
+<li><span style=3D"color: rgb(255,102,0);"><span style=3D"color: rgb(0,0,0)=
+;">Disappearing system</span></span>
+<ul>
+<li><span style=3D"color: rgb(255,102,0);"><span style=3D"color: rgb(0,0,0)=
+;">Could have the platforms disappear after player stands on it for a few s=
+econds</span></span>
+<ul>
+<li><span style=3D"color: rgb(255,102,0);"><span style=3D"color: rgb(0,0,0)=
+;">Platform attributes as player nears towards the goal/end of the challeng=
+e</span></span>
+<ul>
+<li><span style=3D"color: rgb(255,102,0);"><span style=3D"color: rgb(0,0,0)=
+;">Platforms shrink over time</span></span></li>
+<li><span style=3D"color: rgb(255,102,0);"><span style=3D"color: rgb(0,0,0)=
+;">Platforms even have an enemy or two on them at a time</span></span></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);">Pros:</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Could be fine</span></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);">Cons:</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">What Would it Look Like (Need to Wor=
+k On It)</span></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);">Likelihood to Implement: Make a line=
+ar platforming challenge (see where enemies fall in line)</span></li>
+</ul></li>
+<li><u><span style=3D"color: rgb(0,0,0);">Greek Parkour</span></u>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Basically a mini <em>Mirror's Edge</=
+em> type of Dungeon Objective</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);"><iframe class=3D"youtube-player" typ=
+e=3D"text/html" style=3D"width: 400px; height: 300px" src=3D"//www.youtube.=
+com/embed/5j0an_a5fGg?wmode=3Dopaque" frameborder=3D"0" webkitallowfullscre=
+en mozallowfullscreen allowfullscreen> </iframe> </span></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);">GhostRunner</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);"><iframe class=3D"youtube-player" typ=
+e=3D"text/html" style=3D"width: 400px; height: 300px" src=3D"//www.youtube.=
+com/embed/zsjaRHMr088?wmode=3Dopaque" frameborder=3D"0" webkitallowfullscre=
+en mozallowfullscreen allowfullscreen> </iframe> </span></li>
+<li><span style=3D"color: rgb(0,0,0);">(Flexibility of Parkour: e.g., killi=
+ng enemies)</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Enemies are placed in most optimal p=
+arkour route</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Player can pick basically any route<=
+/span></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);">Different ways to implement</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Goals of DO</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Could have player run through hoops =
+quickly enough</span></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);">Player Characteristics</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(255,102,0)=
+;">Movement Speed</span> could be doubled/tripled for DO</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Variations in obstacle height could =
+require either <span style=3D"color: rgb(255,102,0);">single jumps</span> o=
+r <span style=3D"color: rgb(255,102,0);">double jumps</span></span></li>
+<li><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(255,102,0)=
+;">Attacks</span> could be made slower or faster depending on role of enemi=
+es</span></li>
+</ul></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);">Pros:</span>
+<ul>
+<li>Platforming-oriented</li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);">Cons:</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Adding enemies tough</span></li>
+</ul></li>
+</ul></li>
+<li><u><span style=3D"color: rgb(0,0,0);">Dodge Projectiles as Landscape Sh=
+ifts</span></u>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Player activates node in the center =
+of an open room/arena (i.e., no walls, this is outdoors)</span></li>
+<li><span style=3D"color: rgb(0,0,0);">After this happens, several other pl=
+atforms surrounding the player fall at once</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Others rise with enemies on them (to=
+o far to jump to)</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Player must survive volleys of proje=
+ctiles from 1-3 enemy types for 1-2 minutes</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Ultimately a "Don't Get Hit" Dungeon=
+ Objective</span></li>
+</ul></li>
+<li><u>Non-Level Dungeon Objective</u>
+<ul>
+<li><a href=3D"https://studio.eecs.umich.edu/confluence/pages/resumedraft.a=
+ction?draftId=3D21629048&amp;draftShareId=3D375db353-d836-43e3-9d95-89f088a=
+0d986&amp;" rel=3D"nofollow">See Shadow the Hedgehog section of the Dungeon=
+ Objective Research document for more info/examples</a></li>
+<li>Shadow the Hedgehog: Choices Mechanism
+<ul>
+<li>Level Objectives are determined by which of 2-3 missions a player choos=
+es to accomplish (Multiple Endings)</li>
+</ul></li>
+<li>If using this Dungeon Objective--since it is throughout the&nbsp;level=
+=E2=80=93there will be <u>no final room</u>
+<ul>
+<li>Instead, whichever of 2-3 choices a player picks, that will determine t=
+he 2nd Dungeon Objective
+<ul>
+<li>Or could simply change how Dungeon Objective 2 works (e.g., changing en=
+emy types from difficult to easy or vice versa)</li>
+<li>This strategy would ease up scope and utilize an Objective style that i=
+s rarely used, it's pretty unique</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+<p><u><strong>List of Single Mechanisms Player Can Do</strong></u></p>
+<ul>
+<li>Lever that can activate/deactivate with world in on/off fashion</li>
+<li>Enemies (3 Types) that can spawn in over time</li>
+<li>Things We Could Do (Not Implemented Yet)
+<ul>
+<li>Door open close</li>
+<li>Platforms move up and down</li>
+<li>Transporting/teleporting player from one location to another</li>
+</ul></li>
+<li>Can Dash</li>
+<li>Can Double Jump</li>
+<li>Can Melee-to-Air</li>
+<li>Can Shoot Weapon</li>
+<li>Can Shoot Charged Projectile From Weapon</li>
+<li>Keys to activate/unlock&nbsp;</li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_1572_1392541952.1637964481547--

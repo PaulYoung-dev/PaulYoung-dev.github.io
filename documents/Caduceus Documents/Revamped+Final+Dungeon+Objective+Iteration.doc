@@ -1,0 +1,384 @@
+Date: Fri, 26 Nov 2021 17:08:22 -0500 (EST)
+Message-ID: <1057382871.1577.1637964502588@studio.eecs.umich.edu>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_1576_969494447.1637964502587"
+
+------=_Part_1576_969494447.1637964502587
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Revamped Final Dungeon Objective Iteration</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Revamped Final Dungeon Objective Iteration</h1>
+    <div class=3D"Section1">
+        <p><em>*This is the documentation for the new Final Dungeon Objecti=
+ve, we will be using this one for the game*</em></p>
+<p><u><strong>Final Dungeon Objective New Blueprint:</strong></u></p>
+<ul>
+<li><span style=3D"color: rgb(128,0,0);">For Now see the&nbsp;<a href=3D"/c=
+onfluence/display/PWW2/Old+1st+Dungeon+Objective+Iteration">Old 1st Dungeon=
+ Objective Iteration</a>&nbsp;Document by clicking the Link for a General C=
+oncept of the Final DO</span></li>
+</ul>
+<p><u><strong><span style=3D"color: rgb(0,0,0);">How the Player Should Feel=
+ in this Dungeon Objective:</span></strong></u></p>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Desperation/Urgency/Overwhelming on =
+the Way Towards and Up the Tower, Can be a Bit Cheery or Have Strong Melanc=
+holy Vibes (Sonic 06 Example) as long as has Urgency</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Music Examples: (Almost All from Xen=
+oblade Chronicles, my favorite game for it's time ever probably)</span></li=
+>
+<li><span style=3D"color: rgb(0,0,0);"><iframe class=3D"youtube-player" typ=
+e=3D"text/html" style=3D"width: 400px; height: 300px" src=3D"//www.youtube.=
+com/embed/EsUECsnteP0?wmode=3Dopaque" frameborder=3D"0" webkitallowfullscre=
+en mozallowfullscreen allowfullscreen> </iframe> &nbsp;(The End Lies Ahead,=
+ OST)</span></li>
+<li><span style=3D"color: rgb(0,0,0);"><iframe class=3D"youtube-player" typ=
+e=3D"text/html" style=3D"width: 400px; height: 300px" src=3D"//www.youtube.=
+com/embed/DB20rYaWZLA?wmode=3Dopaque" frameborder=3D"0" webkitallowfullscre=
+en mozallowfullscreen allowfullscreen> </iframe> &nbsp;(Mechonis Field, Def=
+initive Edition)</span></li>
+<li><span style=3D"color: rgb(0,0,0);"><iframe class=3D"youtube-player" typ=
+e=3D"text/html" style=3D"width: 400px; height: 300px" src=3D"//www.youtube.=
+com/embed/LSCLbShOrA0?wmode=3Dopaque" frameborder=3D"0" webkitallowfullscre=
+en mozallowfullscreen allowfullscreen> </iframe> &nbsp;(Unfinished Business=
+, OST)</span></li>
+<li><span style=3D"color: rgb(0,0,0);"><iframe class=3D"youtube-player" typ=
+e=3D"text/html" style=3D"width: 400px; height: 300px" src=3D"//www.youtube.=
+com/embed/XVV5vGpelDg?wmode=3Dopaque" frameborder=3D"0" webkitallowfullscre=
+en mozallowfullscreen allowfullscreen> </iframe> &nbsp;(The Battle is Upon =
+Us, OST)</span></li>
+<li><span style=3D"color: rgb(0,0,0);"><iframe class=3D"youtube-player" typ=
+e=3D"text/html" style=3D"width: 400px; height: 300px" src=3D"//www.youtube.=
+com/embed/BWWfjK0v8eM?wmode=3Dopaque" frameborder=3D"0" webkitallowfullscre=
+en mozallowfullscreen allowfullscreen> </iframe> &nbsp;(Sonic 06 Main Theme=
+, OST)</span></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);">Once the player enters room, ambienc=
+e becomes mysterious slightly</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Music Example:</span></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);">As soon as that pedestal/node in the=
+ top room of the tower is triggered, there's NO GOING BACK</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Music Examples of When Fight is Trig=
+gered:</span>
+<ul>
+<li>Tragic Decision (Either Version Has Right Feel in My Opinion)&nbsp;</li=
+>
+<li><span style=3D"color: rgb(0,0,0);"><iframe class=3D"youtube-player" typ=
+e=3D"text/html" style=3D"width: 400px; height: 300px" src=3D"//www.youtube.=
+com/embed/io1uZQZnJMk?wmode=3Dopaque" frameborder=3D"0" webkitallowfullscre=
+en mozallowfullscreen allowfullscreen> </iframe> &nbsp;(Tragic Decision, OS=
+T)</span></li>
+<li><span style=3D"color: rgb(0,0,0);"><iframe class=3D"youtube-player" typ=
+e=3D"text/html" style=3D"width: 400px; height: 300px" src=3D"//www.youtube.=
+com/embed/wLXyb_wJPc4?wmode=3Dopaque" frameborder=3D"0" webkitallowfullscre=
+en mozallowfullscreen allowfullscreen> </iframe> &nbsp;(Tragic Decision, De=
+finitive Edition)</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Engage the Enemy (OST is by far best=
+, nostalgia kicks are real)</span></li>
+<li><span style=3D"color: rgb(0,0,0);"><iframe class=3D"youtube-player" typ=
+e=3D"text/html" style=3D"width: 400px; height: 300px" src=3D"//www.youtube.=
+com/embed/xi0M9SIaLb4?wmode=3Dopaque" frameborder=3D"0" webkitallowfullscre=
+en mozallowfullscreen allowfullscreen> </iframe> &nbsp;(Engage the Enemy, O=
+ST)</span></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);">Music MUST have heroic/epic feel to =
+it</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Must feel very epic/large of scope, =
+overwhelming for the player</span></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);">Vocals would definitely help music <=
+u>to be epic in scope</u></span></li>
+</ul></li>
+</ul>
+<p><strong><span style=3D"color: rgb(0,0,0);"><u>Big Room: Survivability Ob=
+jective</u></span></strong></p>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Don't want to climb up for nothing</=
+span></li>
+<li><span style=3D"color: rgb(0,0,0);">Multiple spawn points for enemies</s=
+pan></li>
+<li><span style=3D"color: rgb(0,0,0);">Kiting (Gaming Term)</span></li>
+</ul>
+<p><br></p>
+<p><u><strong>New Changes:</strong></u></p>
+<ul>
+<li>Push the 1st Dungeon Objective to the Final Dungeon Objective</li>
+<li>Final Dungeon Objective (Make the Tower Grander)
+<ul>
+<li>Going in and out of tower</li>
+</ul></li>
+<li>2 Arenas for 1st &amp; 2nd Dungeon Objectives
+<ul>
+<li>How to Differentiate?</li>
+<li>Platform Raising-Lowering</li>
+<li>1 Mostly Focused on Combat, 1 Mostly Focused on Platforming
+<ul>
+<li>1st DO: Platforming-heavy (70-80%ish)
+<ul>
+<li>Device system for when player fails at current objective</li>
+<li>Progress isn't totally impeded (forgiving)</li>
+<li>What is the goal of the player and describes the world of that objectiv=
+e (puzzles?)</li>
+</ul></li>
+<li>2nd DO: Combat-heavy (70-80%ish)</li>
+</ul></li>
+</ul></li>
+<li>Make Pitches as<span>&nbsp;</span><u>Simple</u><span>&nbsp;</span>as Po=
+ssible</li>
+<li>Super Easy to Implement, Super Simple
+<ul>
+<li>Pick 3 or 4 mechanisms from list per idea
+<ul>
+<li>Mix up types of mechanisms</li>
+</ul></li>
+</ul></li>
+</ul>
+<p><u><strong>List of Single Mechanisms Player Can Do</strong></u></p>
+<ul>
+<li>Lever that can activate/deactivate with world in on/off fashion</li>
+<li>Enemies (3 Types) that can spawn in over time</li>
+<li>Things We Could Do (Not Implemented Yet)
+<ul>
+<li>Door open close</li>
+<li>Platforms move up and down</li>
+<li>Transporting/teleporting player from one location to another</li>
+</ul></li>
+<li>Can Dash</li>
+<li>Can Double Jump</li>
+<li>Can Melee-to-Air</li>
+<li>Can Shoot Weapon</li>
+<li>Can Shoot Charged Projectile From Weapon</li>
+<li>Keys to activate/unlock&nbsp;</li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_1576_969494447.1637964502587--
